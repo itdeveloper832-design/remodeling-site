@@ -184,9 +184,11 @@ export default function ContactSection() {
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="bathroom-remodel">Bathroom Remodeling</SelectItem>
-                          <SelectItem value="kitchen-remodel">Kitchen Remodeling</SelectItem>
                           <SelectItem value="shower-remodel">Shower Remodel</SelectItem>
-                          <SelectItem value="tub-conversion">Tub-to-Shower Conversion</SelectItem>
+                          <SelectItem value="bathtub-installation">Bathtub Installation</SelectItem>
+                          <SelectItem value="walk-in-shower-installation">Walk-in Shower Installation</SelectItem>
+                          <SelectItem value="bathroom-tile-installation">Bathroom Tile Installation</SelectItem>
+                          <SelectItem value="bathroom-vanity-installation">Bathroom Vanity Installation</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>

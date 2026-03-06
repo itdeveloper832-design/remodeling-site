@@ -12,14 +12,14 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6 group">
               <span className="font-serif text-3xl font-semibold text-background group-hover:text-primary transition-colors">
-                Gilbert
+                Chandler
               </span>
               <span className="block text-xs tracking-[0.2em] uppercase text-background/60 -mt-1">
                 Bath & Kitchen
               </span>
             </Link>
             <p className="text-background/70 text-sm leading-relaxed mb-6">
-              Premier bathroom and kitchen remodeling services in Gilbert, Arizona. 
+              Premier bathroom remodeling services in Chandler, Arizona. 
               The best bathroom remodel company near me, transforming homes with luxury designs and exceptional craftsmanship since 2008.
             </p>
             <div className="flex gap-3">
@@ -67,10 +67,26 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/kitchen-remodeling"
+                  href="/bathroom-remodeling#shower-remodeling"
                   className="text-background/70 hover:text-primary transition-colors text-sm"
                 >
-                  Kitchen Remodeling
+                  Shower Remodeling
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/bathroom-remodeling#bathtub-installation"
+                  className="text-background/70 hover:text-primary transition-colors text-sm"
+                >
+                  Bathtub Installation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/bathroom-remodeling#walk-in-shower-installation"
+                  className="text-background/70 hover:text-primary transition-colors text-sm"
+                >
+                  Walk-in Shower Installation
                 </Link>
               </li>
             </ul>

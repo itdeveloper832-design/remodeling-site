@@ -35,93 +35,153 @@ const breadcrumbs = [
 
 const subServices = [
   {
-    id: "shower",
+    id: "shower-remodeling",
     icon: ShowerHead,
-    title: "Custom Shower Remodels",
+    title: "Shower Remodeling",
     description:
-      "Create your dream shower with custom designs tailored to your space and style. From luxurious rain showers to sleek frameless enclosures, we bring your vision to life with premium materials and expert craftsmanship.",
+      "Upgrade your shower with a layout, finish palette, and fixture package tailored to your bathroom. From frameless glass to premium tilework, we create showers that feel elevated and easy to maintain.",
     image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2574&auto=format&fit=crop",
     features: [
       "Frameless glass enclosures",
-      "Custom tile patterns and designs",
-      "Rainfall and multi-head shower systems",
-      "Built-in benches and niches",
-      "Barrier-free accessible designs",
+      "Custom tile layouts and accent details",
+      "Rainfall and multi-function shower systems",
+      "Built-in benches and recessed niches",
+      "Waterproofing and finishing details",
     ],
   },
   {
-    id: "tub",
+    id: "bathtub-installation",
     icon: Bath,
-    title: "Tub-to-Shower Conversions",
+    title: "Bathtub Installation",
     description:
-      "Say goodbye to your outdated tub and hello to a spacious, modern shower. Our expert team handles the entire conversion process, ensuring proper waterproofing and drainage for a stunning, functional result.",
+      "Install a new bathtub that fits your routine and bathroom footprint. We handle placement, finish coordination, and all of the details needed for a clean, polished installation.",
     image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2574&auto=format&fit=crop",
     features: [
-      "Complete tub removal and disposal",
-      "New drain installation",
-      "Waterproof shower pan systems",
-      "Custom glass door options",
-      "Accessibility modifications available",
+      "Freestanding and alcove tub options",
+      "New drain and plumbing connections",
+      "Coordinated trim and fixture installation",
+      "Tub surround finishing",
+      "Layout planning for comfort and clearance",
     ],
   },
   {
-    id: "tile",
-    icon: Grid3X3,
-    title: "Tile & Flooring",
+    id: "bathtub-replacement",
+    icon: Bath,
+    title: "Bathtub Replacement",
     description:
-      "Elevate your bathroom with beautiful tile work that stands the test of time. We specialize in all types of tile installation, from classic subway tiles to intricate mosaic patterns and luxury natural stone.",
+      "Replace aging, stained, or uncomfortable tubs with updated bathtub solutions that improve appearance, performance, and day-to-day comfort.",
     image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2669&auto=format&fit=crop",
     features: [
-      "Porcelain, ceramic, and natural stone",
-      "Heated floor systems",
-      "Waterproof membrane installation",
-      "Custom patterns and designs",
-      "Grout sealing and maintenance",
+      "Removal of outdated tubs",
+      "Updated replacement options",
+      "Fixture and trim refreshes",
+      "Tub surround improvements",
+      "Clean installation with finished detailing",
     ],
   },
   {
-    id: "vanity",
-    icon: Droplets,
-    title: "Vanity & Cabinet Installation",
+    id: "walk-in-shower-installation",
+    icon: ShowerHead,
+    title: "Walk-in Shower Installation",
     description:
-      "Maximize your storage and style with custom vanity solutions. From single sinks to double vanities, floating designs to traditional cabinetry, we create the perfect centerpiece for your bathroom.",
+      "Create a more open, accessible bathing experience with a walk-in shower designed around your space, preferred features, and safety needs.",
     image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2574&auto=format&fit=crop",
     features: [
-      "Custom and semi-custom cabinets",
-      "Granite, quartz, and marble tops",
-      "Undermount and vessel sinks",
-      "Floating vanity designs",
-      "Soft-close drawers and doors",
+      "Low-threshold and curbless options",
+      "Custom glass enclosures",
+      "Built-in seating and storage niches",
+      "Slip-resistant surface selections",
+      "Accessible fixture configurations",
     ],
   },
   {
-    id: "fixtures",
-    icon: Lightbulb,
-    title: "Lighting & Fixtures",
+    id: "bathroom-tile-installation",
+    icon: Grid3X3,
+    title: "Bathroom Tile Installation",
     description:
-      "Complete your bathroom transformation with carefully selected lighting and fixtures. From ambient lighting to task lighting, modern faucets to luxurious showerheads, every detail matters.",
+      "Enhance your bathroom with tile installation that balances durability, moisture resistance, and style. We install tile across shower walls, backsplashes, and wet-area surfaces.",
     image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=2576&auto=format&fit=crop",
     features: [
-      "Ambient, task, and accent lighting",
-      "Designer faucets and hardware",
-      "Luxury showerheads and systems",
-      "Smart bathroom technology",
-      "Energy-efficient LED options",
+      "Porcelain, ceramic, and natural stone options",
+      "Custom layouts and accent patterns",
+      "Shower wall and surround installations",
+      "Waterproof prep and underlayment",
+      "Clean grout and finishing work",
     ],
   },
   {
-    id: "full",
-    icon: Wrench,
-    title: "Complete Bathroom Renovations",
+    id: "bathroom-vanity-installation",
+    icon: Home,
+    title: "Bathroom Vanity Installation",
     description:
-      "Ready for a total transformation? Our full bathroom remodels cover everything from demolition to final touches. We handle all aspects including plumbing, electrical, and finishing work.",
+      "Install a bathroom vanity that improves storage, workflow, and visual balance. We coordinate cabinet size, countertop selection, sink setup, and hardware details.",
     image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2574&auto=format&fit=crop",
     features: [
-      "Complete design services",
-      "Full demolition and disposal",
-      "Plumbing and electrical work",
-      "Custom storage solutions",
-      "Project management from start to finish",
+      "Single and double vanity layouts",
+      "Quartz, stone, and solid-surface tops",
+      "Drawer storage and cabinet planning",
+      "Integrated sink coordination",
+      "Fixture and mirror compatibility",
+    ],
+  },
+  {
+    id: "bathroom-flooring",
+    icon: Grid3X3,
+    title: "Bathroom Flooring",
+    description:
+      "Refresh your bathroom floor with water-friendly materials that improve traction, appearance, and long-term durability.",
+    image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=2669&auto=format&fit=crop",
+    features: [
+      "Durable tile and flooring selections",
+      "Moisture-resistant installation systems",
+      "Slip-resistant finish options",
+      "Subfloor preparation and leveling",
+      "Seamless transitions and trim details",
+    ],
+  },
+  {
+    id: "bathroom-lighting-upgrade",
+    icon: Lightbulb,
+    title: "Bathroom Lighting Upgrade",
+    description:
+      "Improve the feel and functionality of your bathroom with upgraded lighting that supports grooming, ambiance, and energy efficiency.",
+    image: "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=2576&auto=format&fit=crop",
+    features: [
+      "Vanity lighting improvements",
+      "Ambient and task lighting layers",
+      "Energy-efficient LED upgrades",
+      "Accent lighting for mirrors and niches",
+      "Updated switches and dimming options",
+    ],
+  },
+  {
+    id: "bathroom-sink-installation",
+    icon: Droplets,
+    title: "Bathroom Sink Installation",
+    description:
+      "Upgrade your sink setup with new basin styles, faucet pairings, and clean connections that support both daily use and overall design.",
+    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2574&auto=format&fit=crop",
+    features: [
+      "Undermount, vessel, and integrated sinks",
+      "Updated faucet and drain assemblies",
+      "Countertop compatibility planning",
+      "Precise alignment and fitment",
+      "Clean finish and caulking work",
+    ],
+  },
+  {
+    id: "bathroom-plumbing-upgrade",
+    icon: Wrench,
+    title: "Bathroom Plumbing Upgrade",
+    description:
+      "Improve performance behind the walls with plumbing upgrades that support new fixtures, better efficiency, and more reliable everyday use.",
+    image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2574&auto=format&fit=crop",
+    features: [
+      "Fixture supply and drain updates",
+      "Shower and tub plumbing improvements",
+      "Vanity and sink line adjustments",
+      "Efficiency-focused fixture replacements",
+      "Code-conscious installation practices",
     ],
   },
 ];
@@ -199,7 +259,7 @@ const tips = [
 
 const serviceFaqs = [
   {
-    question: "How long does a bathroom remodel take in Gilbert, Arizona?",
+    question: "How long does a bathroom remodel take in Chandler, Arizona?",
     answer: "A typical bathroom remodel takes 2-4 weeks depending on scope. Simple updates may take days, while complete renovations can take 4-6 weeks. We also offer bathroom remodel in a day near me services for quick updates.",
   },
   {
@@ -220,17 +280,17 @@ export default function BathroomRemodelingPage() {
   return (
     <>
       <ServiceSchema
-        serviceName="Bathroom Remodeling Services in Gilbert, Arizona"
-        serviceDescription="Best bathroom remodel company near me. Expert bathroom remodeling services including custom showers, tub conversions, vanity installation, tile work, and complete renovations. Handicap bathroom remodel contractors near me. Serving Gilbert, Arizona and surrounding areas."
+        serviceName="Bathroom Remodeling Services in Chandler, Arizona"
+        serviceDescription="Best bathroom remodel company near me. Expert bathroom remodeling services including shower remodeling, bathtub installation, bathtub replacement, walk-in shower installation, vanity installation, tile work, flooring, lighting, sink updates, and plumbing upgrades. Serving Chandler, Arizona and surrounding areas."
         serviceUrl={`${siteConfig.url}/bathroom-remodeling`}
       />
       <FAQSchema faqs={serviceFaqs} />
       <Header />
       <main>
         <ServiceHero
-          title="Best Bathroom Remodeling Company in Gilbert, Arizona"
+          title="Best Bathroom Remodeling Company in Chandler, Arizona"
           subtitle="Best Bathroom Remodelers Near Me"
-          description="Looking for bathroom remodelers near me? Create the bathroom of your dreams with our comprehensive remodeling services. From custom showers to complete renovations, we deliver stunning results. Bathroom remodel financing near me available."
+          description="Looking for bathroom remodelers near me? Create the bathroom of your dreams with our comprehensive remodeling services in Chandler. From showers and tubs to tile, vanities, lighting, sinks, flooring, and plumbing upgrades, we deliver stunning results. Bathroom remodel financing near me available."
           image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2574&auto=format&fit=crop"
           breadcrumbs={breadcrumbs}
         />

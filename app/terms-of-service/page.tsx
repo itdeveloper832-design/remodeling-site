@@ -4,8 +4,8 @@ import { Footer } from "@/components/layout/footer"
 import { siteConfig } from "@/lib/site-config"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Gilbert Bath & Kitchen",
-  description: "Terms of Service for Gilbert Bath & Kitchen. Read our terms and conditions for using our services.",
+  title: "Terms of Service | Chandler Bath & Kitchen",
+  description: "Terms of Service for Chandler Bath & Kitchen. Read our terms and conditions for using our services.",
 }
 
 export default function TermsOfServicePage() {
@@ -41,11 +41,11 @@ export default function TermsOfServicePage() {
                 Services Provided
               </h2>
               <p className="text-muted-foreground mb-4">
-                {siteConfig.name} provides professional bathroom and kitchen remodeling services including:
+                {siteConfig.name} provides professional bathroom remodeling services including:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground mb-6 space-y-2">
                 <li>Complete bathroom renovations</li>
-                <li>Kitchen remodeling and upgrades</li>
+                <li>Shower remodeling and walk-in shower installations</li>
                 <li>Shower and tub installations</li>
                 <li>Vanity and countertop replacements</li>
                 <li>Tile work and flooring</li>

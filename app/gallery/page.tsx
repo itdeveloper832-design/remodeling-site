@@ -14,7 +14,6 @@ import { defaultGalleryItems } from "@/lib/seed-blog"
 const categories = [
   { value: "all", label: "All Projects" },
   { value: "bathroom", label: "Bathroom" },
-  { value: "kitchen", label: "Kitchen" },
   { value: "shower", label: "Shower" },
   { value: "vanity", label: "Vanity" },
 ]
@@ -45,9 +44,10 @@ export default function GalleryPage() {
     fetchData()
   }, [])
 
+  const visibleItems = items.filter(item => item.category !== "kitchen")
   const filteredItems = selectedCategory === "all" 
-    ? items 
-    : items.filter(item => item.category === selectedCategory)
+    ? visibleItems 
+    : visibleItems.filter(item => item.category === selectedCategory)
 
   const currentIndex = selectedItem ? filteredItems.findIndex(item => item.id === selectedItem.id) : -1
 
@@ -85,7 +85,7 @@ export default function GalleryPage() {
                 Project Gallery
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Browse our portfolio of completed bathroom and kitchen remodeling projects. 
+                Browse our portfolio of completed bathroom remodeling projects. 
                 Each transformation showcases our commitment to quality and craftsmanship.
               </p>
             </motion.div>

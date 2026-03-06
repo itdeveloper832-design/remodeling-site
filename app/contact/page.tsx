@@ -8,12 +8,12 @@ import { Phone, Mail, MapPin, Clock, Star } from "lucide-react"
 import { BreadcrumbSchema } from "@/components/seo/json-ld"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Free Bathroom Remodel Estimate in Gilbert, AZ",
-  description: `Contact Gilbert Bath & Kitchen for your free bathroom or kitchen remodeling estimate. Serve Gilbert, Mesa, Chandler, Tempe, Scottsdale. Call (480) 555-0123 or book online today.`,
-  keywords: ["bathroom remodel near me", "contact remodeling company", "free estimate", "kitchen remodel Gilbert", "bathroom contractor"],
+  title: "Contact Us | Free Bathroom Remodel Estimate in Chandler, AZ",
+  description: `Contact Chandler Bath & Kitchen for your free bathroom remodeling estimate. Serving Chandler, Sun Lakes, Ahwatukee, Tempe, Mesa, and South Phoenix. Call (480) 555-0123 or book online today.`,
+  keywords: ["bathroom remodel near me", "contact remodeling company", "free estimate", "bathroom contractor Chandler", "bathroom contractor"],
   openGraph: {
-    title: "Contact Gilbert Bath & Kitchen | Free Remodeling Estimate",
-    description: "Get your free bathroom or kitchen remodeling estimate today. Licensed, insured, and trusted by Gilbert homeowners.",
+    title: "Contact Chandler Bath & Kitchen | Free Remodeling Estimate",
+    description: "Get your free bathroom remodeling estimate today. Licensed, insured, and trusted by Chandler homeowners.",
     url: `${siteConfig.url}/contact`,
     type: "website",
   },
@@ -41,7 +41,7 @@ export default function ContactPage() {
                 Contact Us
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Ready to transform your bathroom or kitchen? Contact us for a free consultation 
+                Ready to transform your bathroom? Contact us for a free consultation 
                 and estimate. We are here to help bring your vision to life.
               </p>
             </div>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                 What Customers Say
               </span>
               <h2 className="mt-4 text-3xl md:text-4xl font-serif font-semibold text-foreground text-balance">
-                Trusted by Gilbert Homeowners
+                Trusted by Chandler Homeowners
               </h2>
             </div>
             
@@ -122,18 +122,18 @@ export default function ContactPage() {
                 {
                   name: "Sarah Johnson",
                   project: "Master Bathroom Remodel",
-                  text: "Gilbert Bath & Kitchen transformed our outdated bathroom into a luxury spa-like retreat. The craftsmanship is exceptional!",
+                  text: "Chandler Bath & Kitchen transformed our outdated bathroom into a luxury spa-like retreat. The craftsmanship is exceptional!",
                   rating: 5
                 },
                 {
                   name: "Mike Davis",
-                  project: "Kitchen Renovation",
-                  text: "Professional, punctual, and the quality of work exceeded all expectations. Highly recommend to anyone in Gilbert!",
+                  project: "Walk-in Shower Installation",
+                  text: "Professional, punctual, and the quality of work exceeded all expectations. Highly recommend to anyone in Chandler!",
                   rating: 5
                 },
                 {
                   name: "Jennifer Martinez",
-                  project: "Bathroom & Kitchen Combo",
+                  project: "Bathroom Vanity Upgrade",
                   text: "Best decision we made for our home. The team was respectful, clean, and the final result is stunning.",
                   rating: 5
                 }
@@ -192,7 +192,7 @@ export default function ContactPage() {
                   Visit Our Showroom
                 </h2>
                 <p className="mt-4 text-muted-foreground">
-                  Located in the heart of Gilbert, Arizona. Stop by to see our latest bathroom and kitchen remodeling projects.
+                  Located in the heart of Chandler, Arizona. Stop by to see our latest bathroom remodeling projects.
                 </p>
               </div>
 

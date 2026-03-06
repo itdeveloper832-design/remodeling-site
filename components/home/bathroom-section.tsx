@@ -35,7 +35,7 @@ export default function BathroomSection() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
                 src="/images/bathroom-showcase.jpg"
-                alt="Luxury bathroom remodel featuring walk-in shower in Gilbert, Arizona"
+                alt="Luxury bathroom remodel featuring walk-in shower in Chandler, Arizona"
                 fill
                 className="object-cover"
               />
@@ -64,7 +64,7 @@ export default function BathroomSection() {
               Our Specialty
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 mb-6 text-foreground text-balance">
-              Expert Bathroom Remodeling in Gilbert, Arizona
+              Expert Bathroom Remodeling in Chandler, Arizona
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
               Your bathroom should be a sanctuary. Our comprehensive remodeling services transform 

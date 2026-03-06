@@ -1,20 +1,20 @@
-// Default SEO-optimized blog post for Gilbert Bath & Kitchen
+// Default SEO-optimized blog post for Chandler Bath & Kitchen
 export const defaultBlogPost = {
-  title: "Complete Guide to Bathroom Remodeling in Gilbert, Arizona",
-  slug: "complete-guide-bathroom-remodeling-albert-arizona",
-  excerpt: "Everything you need to know about bathroom remodeling in Gilbert, Arizona. From planning and budgeting to choosing materials and hiring the right contractor.",
+  title: "Complete Guide to Bathroom Remodeling in Chandler, Arizona",
+  slug: "complete-guide-bathroom-remodeling-chandler-arizona",
+  excerpt: "Everything you need to know about bathroom remodeling in Chandler, Arizona. From planning and budgeting to choosing materials and hiring the right contractor.",
   content: `
-# Complete Guide to Bathroom Remodeling in Gilbert, Arizona
+# Complete Guide to Bathroom Remodeling in Chandler, Arizona
 
-Are you considering a bathroom remodel in Gilbert, Arizona? Whether you're looking to update an outdated space, increase your home's value, or create a more functional bathroom for your family, this comprehensive guide will walk you through everything you need to know about bathroom remodeling in the Gilbert area.
+Are you considering a bathroom remodel in Chandler, Arizona? Whether you're looking to update an outdated space, increase your home's value, or create a more functional bathroom for your family, this comprehensive guide will walk you through everything you need to know about bathroom remodeling in the Chandler area.
 
 ## Why Remodel Your Bathroom?
 
-Bathroom remodeling is one of the best investments you can make in your home. Here are the top reasons homeowners in Gilbert, Arizona choose to renovate their bathrooms:
+Bathroom remodeling is one of the best investments you can make in your home. Here are the top reasons homeowners in Chandler, Arizona choose to renovate their bathrooms:
 
 ### Increase Home Value
 
-A well-designed bathroom renovation can yield a return on investment (ROI) of 60-70% or more. In the competitive Gilbert real estate market, updated bathrooms are a key selling point that can help your home stand out.
+A well-designed bathroom renovation can yield a return on investment (ROI) of 60-70% or more. In the competitive Chandler real estate market, updated bathrooms are a key selling point that can help your home stand out.
 
 ### Improve Energy Efficiency
 
@@ -34,13 +34,13 @@ Proper planning is essential for a successful bathroom renovation. Here's how to
 
 ### Set a Realistic Budget
 
-Bathroom remodeling costs in Gilbert, Arizona typically range from $10,000 to $30,000 for a standard bathroom, with luxury renovations costing $50,000 or more. Factors that influence cost include:
+Bathroom remodeling costs in Chandler, Arizona typically range from $10,000 to $30,000 for a standard bathroom, with luxury renovations costing $50,000 or more. Factors that influence cost include:
 
 - Size of the bathroom
 - Quality of materials
 - Extent of structural changes
 - Plumbing and electrical work
-- Labor costs in the Gilbert area
+- Labor costs in the Chandler area
 
 We recommend setting aside 10-15% of your budget for unexpected expenses that may arise during the project.
 
@@ -59,7 +59,7 @@ Bathroom remodels typically take 2-6 weeks depending on the scope of work. Consi
 
 ## Bathroom Design Trends in Arizona
 
-Gilbert homeowners are embracing several exciting design trends:
+Chandler homeowners are embracing several exciting design trends:
 
 ### Desert-Inspired Palettes
 
@@ -79,7 +79,7 @@ Frameless glass shower enclosures, floating vanities, and strategic mirror place
 
 ## Choosing Materials for Arizona's Climate
 
-Gilbert's desert climate requires careful material selection:
+Chandler's desert climate requires careful material selection:
 
 ### Flooring
 
@@ -121,21 +121,21 @@ New drywall, flooring, shower/tub, vanity, and fixtures are installed. Tile work
 
 Painting, hardware installation, final plumbing connections, and thorough cleaning prepare your new bathroom for use.
 
-## Hiring a Bathroom Remodeling Contractor in Gilbert, Arizona
+## Hiring a Bathroom Remodeling Contractor in Chandler, Arizona
 
 Choosing the right contractor is crucial for a successful project:
 
 ### What to Look For
 
 - **Licensing and Insurance**: Verify your contractor is properly licensed and carries liability insurance and workers' compensation.
-- **Local Experience**: Contractors familiar with Gilbert and the surrounding area understand local building codes, permit requirements, and climate considerations.
+- **Local Experience**: Contractors familiar with Chandler and the surrounding area understand local building codes, permit requirements, and climate considerations.
 - **Portfolio**: Review their previous work to ensure their style matches your vision.
 - **References**: Speak with past clients about their experience.
 - **Written Contracts**: Get everything in writing, including scope of work, timeline, payment schedule, and warranty information.
 
 ### Questions to Ask
 
-1. How long have you been remodeling bathrooms in the Gilbert area?
+1. How long have you been remodeling bathrooms in the Chandler area?
 2. Can you provide references from recent projects?
 3. What is included in your warranty?
 4. How do you handle unexpected issues or changes during the project?
@@ -154,7 +154,7 @@ Understanding where your remodeling dollars go helps you make informed decisions
 
 ## Permits and Regulations
 
-Most bathroom remodels in Gilbert require permits, especially if you're:
+Most bathroom remodels in Chandler require permits, especially if you're:
 
 - Moving or adding plumbing
 - Modifying electrical systems
@@ -176,19 +176,19 @@ To get the most value from your bathroom remodel:
 
 A bathroom remodel is a significant investment that can dramatically improve your daily life and increase your home's value. By planning carefully, choosing the right contractor, and making informed material selections, you can create a bathroom that serves your family beautifully for years to come.
 
-Ready to start your bathroom remodeling project in Gilbert, Arizona? Contact Gilbert Bath & Kitchen today for a free consultation and estimate. Our experienced team has been transforming bathrooms throughout the Gilbert area for over 15 years, and we're committed to exceeding your expectations.
+Ready to start your bathroom remodeling project in Chandler, Arizona? Contact Chandler Bath & Kitchen today for a free consultation and estimate. Our experienced team has been transforming bathrooms throughout the Chandler area for over 15 years, and we're committed to exceeding your expectations.
 
 ---
 
-*Gilbert Bath & Kitchen is the premier bathroom remodeling company serving Gilbert, Gilbert, Mesa, Chandler, Tempe, Scottsdale, and Phoenix. Contact us at (480) 555-0123 or visit our showroom to discuss your project.*
+*Chandler Bath & Kitchen is the premier bathroom remodeling company serving Chandler, Chandler, Mesa, Chandler, Tempe, Scottsdale, and Phoenix. Contact us at (480) 555-0123 or visit our showroom to discuss your project.*
   `,
-  author: "Gilbert Bath & Kitchen Team",
+  author: "Chandler Bath & Kitchen Team",
   category: "Bathroom Remodeling",
-  tags: ["bathroom remodeling", "albert arizona", "home improvement", "bathroom renovation", "contractor"],
+  tags: ["bathroom remodeling", "chandler arizona", "home improvement", "bathroom renovation", "contractor"],
   featuredImage: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=2574&auto=format&fit=crop",
-  metaTitle: "Complete Guide to Bathroom Remodeling in Gilbert, Arizona | Gilbert Bath & Kitchen",
-  metaDescription: "Expert guide to bathroom remodeling in Gilbert, Arizona. Learn about costs, materials, timelines, and how to choose the right contractor for your renovation project.",
-  metaKeywords: "bathroom remodeling albert arizona, bathroom renovation albert az, bathroom contractor albert, shower remodel albert arizona, bathroom design arizona",
+  metaTitle: "Complete Guide to Bathroom Remodeling in Chandler, Arizona | Chandler Bath & Kitchen",
+  metaDescription: "Expert guide to bathroom remodeling in Chandler, Arizona. Learn about costs, materials, timelines, and how to choose the right contractor for your renovation project.",
+  metaKeywords: "bathroom remodeling chandler arizona, bathroom renovation chandler az, bathroom contractor chandler, shower remodel chandler arizona, bathroom design arizona",
   status: "published" as const,
   publishedAt: new Date().toISOString(),
   createdAt: new Date().toISOString(),

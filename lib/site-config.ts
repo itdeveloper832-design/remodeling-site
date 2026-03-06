@@ -1,19 +1,19 @@
 export const siteConfig = {
-  name: "Gilbert Bath & Kitchen",
-  tagline: "Luxury Bathroom & Kitchen Remodeling",
-  description: "Premier bathroom remodeling services in Gilbert, Arizona. Transform your space with our expert craftsmanship and stunning designs. Best bathroom remodel company near me.",
-  url: "https://gilbertbathandkitchen.com",
+  name: "Chandler Bath & Kitchen",
+  tagline: "Luxury Bathroom Remodeling",
+  description: "Premier bathroom remodeling services in Chandler, Arizona. Transform your bathroom with expert craftsmanship, premium finishes, and timeless design.",
+  url: "https://chandlerbathandkitchen.com",
   phone: "(480) 555-0123",
-  email: "info@gilbertbathandkitchen.com",
+  email: "info@chandlerbathandkitchen.com",
   address: {
     street: "123 Main Street",
-    city: "Gilbert",
+    city: "Chandler",
     state: "Arizona",
-    zip: "85233",
-    full: "123 Main Street, Gilbert, AZ 85233",
+    zip: "85225",
+    full: "123 Main Street, Chandler, AZ 85225",
     coordinates: {
-      lat: 33.3528,
-      lng: -111.7890
+      lat: 33.3062,
+      lng: -111.8413
     }
   },
   hours: {
@@ -22,10 +22,10 @@ export const siteConfig = {
     sunday: "Closed"
   },
   social: {
-    facebook: "https://facebook.com/gilbertbathandkitchen",
-    instagram: "https://instagram.com/gilbertbathandkitchen",
-    twitter: "https://twitter.com/gilbertbathaz",
-    pinterest: "https://pinterest.com/gilbertbathandkitchen"
+    facebook: "https://facebook.com/chandlerbathandkitchen",
+    instagram: "https://instagram.com/chandlerbathandkitchen",
+    twitter: "https://twitter.com/chandlerbathaz",
+    pinterest: "https://pinterest.com/chandlerbathandkitchen"
   },
   navigation: [
     { name: "Home", href: "/" },
@@ -39,35 +39,18 @@ export const siteConfig = {
       name: "Bathroom Remodeling",
       href: "/bathroom-remodeling",
       description: "Complete bathroom transformations from concept to completion"
-    },
-    {
-      name: "Kitchen Remodeling",
-      href: "/kitchen-remodeling",
-      description: "Modern kitchen renovations that elevate your home"
-    },
-    {
-      name: "Handicap Accessible",
-      href: "/bathroom-remodeling#accessible",
-      description: "ADA-compliant bathroom modifications for safety and comfort"
-    },
-    {
-      name: "Commercial Remodeling",
-      href: "/bathroom-remodeling#commercial",
-      description: "Professional bathroom renovations for businesses"
     }
   ],
   serviceAreas: [
-    "Gilbert",
-    "Mesa",
     "Chandler",
+    "Sun Lakes",
+    "Ahwatukee",
     "Tempe",
-    "Scottsdale",
-    "Phoenix",
-    "Queen Creek",
-    "San Tan Valley"
+    "Mesa",
+    "South Phoenix"
   ],
   keywords: {
-    primary: "Bathroom Remodeling Gilbert Arizona",
+    primary: "Bathroom Remodeling Chandler Arizona",
     secondary: [
       "best bathroom remodel company near me",
       "bathroom remodelers near me",

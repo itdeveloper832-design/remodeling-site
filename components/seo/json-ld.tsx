@@ -24,8 +24,8 @@ export function LocalBusinessSchema({ type = "HomeAndConstructionBusiness" }: Lo
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 33.3528,
-      longitude: -111.7890,
+      latitude: siteConfig.address.coordinates.lat,
+      longitude: siteConfig.address.coordinates.lng,
     },
     openingHoursSpecification: [
       {
@@ -49,12 +49,12 @@ export function LocalBusinessSchema({ type = "HomeAndConstructionBusiness" }: Lo
     ],
     priceRange: "$$",
     areaServed: siteConfig.serviceAreas.map((area) => ({
-      "@type": "City",
+      "@type": "Place",
       name: `${area}, Arizona`,
     })),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Remodeling Services",
+      name: "Bathroom Remodeling Services",
       itemListElement: [
         {
           "@type": "Offer",
@@ -68,8 +68,80 @@ export function LocalBusinessSchema({ type = "HomeAndConstructionBusiness" }: Lo
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Kitchen Remodeling",
-            description: "Full kitchen renovation services including cabinet installation, countertops, backsplash, and lighting.",
+            name: "Shower Remodeling",
+            description: "Custom shower remodeling with premium tile, glass enclosures, and modern fixtures.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathtub Installation",
+            description: "Professional bathtub installation for new bathroom layouts and remodels.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathtub Replacement",
+            description: "Bathtub replacement services for outdated, damaged, or inefficient tubs.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Walk-in Shower Installation",
+            description: "Accessible walk-in shower installation designed for comfort, safety, and style.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Tile Installation",
+            description: "Bathroom tile installation for walls, floors, shower surrounds, and backsplashes.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Vanity Installation",
+            description: "Bathroom vanity installation with integrated storage, sinks, and premium countertops.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Flooring",
+            description: "Bathroom flooring upgrades with durable, moisture-resistant materials.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Lighting Upgrade",
+            description: "Bathroom lighting upgrades that improve visibility, ambiance, and energy efficiency.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Sink Installation",
+            description: "Bathroom sink installation with updated plumbing, fixtures, and finish selections.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bathroom Plumbing Upgrade",
+            description: "Bathroom plumbing upgrades that improve function, efficiency, and reliability.",
           },
         },
       ],
@@ -115,8 +187,8 @@ export function ServiceSchema({ serviceName, serviceDescription, serviceUrl }: S
       },
     },
     areaServed: {
-      "@type": "City",
-      name: "Gilbert, Arizona",
+      "@type": "Place",
+      name: `${siteConfig.address.city}, Arizona`,
     },
     url: serviceUrl,
   };

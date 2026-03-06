@@ -25,10 +25,10 @@ const galleryItems = [
   },
   {
     id: 3,
-    title: "Contemporary Kitchen",
-    category: "kitchen",
-    before: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2574&auto=format&fit=crop",
-    after: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2574&auto=format&fit=crop",
+    title: "Custom Vanity Upgrade",
+    category: "bathroom",
+    before: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2574&auto=format&fit=crop",
+    after: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2574&auto=format&fit=crop",
   },
   {
     id: 4,
@@ -118,7 +118,7 @@ export default function GalleryPreview() {
               className="text-muted-foreground text-lg"
             >
               Hover over each image to see the stunning transformation. These are real projects 
-              completed for homeowners in Gilbert and surrounding areas by the best bathroom remodelers near me.
+              completed for homeowners in Chandler and surrounding areas by the best bathroom remodelers near me.
             </motion.p>
           </div>
           <motion.div

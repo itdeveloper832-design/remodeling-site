@@ -43,7 +43,7 @@ export default function FinalCTA() {
             className="text-primary-foreground/80 text-lg lg:text-xl leading-relaxed mb-10 max-w-2xl mx-auto"
           >
             Schedule your free in-home consultation today and take the first step toward 
-            the bathroom or kitchen you&apos;ve always wanted.
+            the bathroom you&apos;ve always wanted.
           </motion.p>
 
           <motion.div

@@ -63,7 +63,7 @@ export default function Financing() {
               className="text-muted-foreground text-lg leading-relaxed max-w-2xl mx-auto"
             >
               Don&apos;t let budget constraints hold you back. We offer flexible financing 
-              options to help you get the bathroom or kitchen of your dreams today.
+              options to help you get the bathroom of your dreams today.
             </motion.p>
           </div>
 

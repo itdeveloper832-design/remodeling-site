@@ -11,7 +11,7 @@ const testimonials = [
   {
     id: 1,
     name: "Sarah Mitchell",
-    location: "Gilbert, AZ",
+    location: "Chandler, AZ",
     rating: 5,
     service: "Bathroom Remodel",
     content:
@@ -21,11 +21,11 @@ const testimonials = [
   {
     id: 2,
     name: "Michael Thompson",
-    location: "Gilbert, AZ",
+    location: "Sun Lakes, AZ",
     rating: 5,
-    service: "Kitchen Renovation",
+    service: "Bathtub Replacement",
     content:
-      "From the initial consultation to the final walkthrough, the experience was seamless. They transformed our 1990s kitchen into a modern culinary space. The custom cabinetry is absolutely stunning.",
+      "From the initial consultation to the final walkthrough, the experience was seamless. They replaced our old bathtub with a sleek new install that instantly made the room feel cleaner, brighter, and easier to use.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2574&auto=format&fit=crop",
   },
   {
@@ -41,7 +41,7 @@ const testimonials = [
   {
     id: 4,
     name: "David Chen",
-    location: "Chandler, AZ",
+    location: "Tempe, AZ",
     rating: 5,
     service: "Full Bathroom Remodel",
     content:
@@ -90,7 +90,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted-foreground text-lg leading-relaxed"
           >
-            Don&apos;t just take our word for it. Here&apos;s what homeowners throughout Gilbert 
+            Don&apos;t just take our word for it. Here&apos;s what homeowners throughout Chandler 
             and the surrounding areas have to say about their experience with the best bathroom remodelers near me.
           </motion.p>
         </div>

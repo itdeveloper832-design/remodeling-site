@@ -20,11 +20,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Best Bathroom Remodel Company Near Me in Gilbert, Arizona`,
+    default: `${siteConfig.name} | Best Bathroom Remodel Company Near Me in Chandler, Arizona`,
     template: `%s | ${siteConfig.name}`
   },
-  description: 'Looking for the best bathroom remodel company near me? Expert bathroom remodeling and kitchen renovation services in Gilbert, Arizona. Bathroom remodel financing near me available. Free estimates!',
-  keywords: ['best bathroom remodel company near me', 'bathroom remodelers near me', 'bathroom remodel financing near me', 'Bathroom Remodeling Gilbert Arizona', 'handicap bathroom remodel contractors near me', 'commercial bathroom remodel contractors near me', 'bathroom remodel in a day near me'],
+  description: 'Looking for the best bathroom remodel company near me? Expert bathroom remodeling services in Chandler, Arizona with financing options available. Free estimates for showers, tubs, vanities, tile, and full remodels.',
+  keywords: ['best bathroom remodel company near me', 'bathroom remodelers near me', 'bathroom remodel financing near me', 'Bathroom Remodeling Chandler Arizona', 'shower remodeling Chandler AZ', 'bathroom vanity installation Chandler', 'bathroom tile installation Chandler'],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,
   openGraph: {
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} | Best Bathroom Remodelers Near Me in Gilbert, Arizona`,
-    description: 'Expert bathroom remodeling and kitchen renovation services in Gilbert, Arizona. Best bathroom remodel company near me with financing options available.',
+    title: `${siteConfig.name} | Best Bathroom Remodelers Near Me in Chandler, Arizona`,
+    description: 'Expert bathroom remodeling services in Chandler, Arizona. Best bathroom remodel company near me with financing options available.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} | Best Bathroom Remodelers Near Me in Gilbert, Arizona`,
-    description: 'Expert bathroom remodeling services in Gilbert, Arizona. Bathroom remodel financing near me available.',
+    title: `${siteConfig.name} | Best Bathroom Remodelers Near Me in Chandler, Arizona`,
+    description: 'Expert bathroom remodeling services in Chandler, Arizona. Bathroom remodel financing near me available.',
   },
   robots: {
     index: true,

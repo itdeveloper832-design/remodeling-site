@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1200&auto=format&fit=crop&fm=webp"
-          alt="Luxury bathroom remodel in Gilbert, Arizona - Best bathroom remodelers near me"
+          alt="Luxury bathroom remodel in Chandler, Arizona - best bathroom remodelers near me"
           fill
           className="object-cover"
           priority
@@ -44,13 +44,13 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold text-background leading-tight mb-6 text-balance">
-            Best Bathroom Remodeling Company in Gilbert, Arizona
+            Best Bathroom Remodeling Company in Chandler, Arizona
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-background/80 mb-10 max-w-2xl leading-relaxed">
             Looking for bathroom remodelers near me? Transform your bathroom into a luxurious retreat. 
-            Our expert craftsmen deliver stunning renovations with bathroom remodel financing near me options available.
+            Our expert craftsmen deliver stunning renovations across Chandler with bathroom remodel financing near me options available.
           </p>
 
           {/* CTA Buttons */}
@@ -66,7 +66,7 @@ export default function Hero() {
               asChild
               size="lg"
               variant="outline"
-              className="border-background/30 text-background hover:bg-background/10 text-base px-8 py-6"
+              className="border-black bg-black text-white hover:border-black/90 hover:bg-black/90 hover:text-white text-base px-8 py-6"
             >
               <Link href="/gallery">View Our Portfolio</Link>
             </Button>

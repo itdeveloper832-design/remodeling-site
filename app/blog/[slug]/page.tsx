@@ -193,7 +193,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 Ready to Start Your Remodeling Project?
               </h2>
               <p className="mt-4 text-muted-foreground">
-                Contact us today for a free consultation and estimate on your bathroom or kitchen renovation.
+                Contact us today for a free consultation and estimate on your bathroom renovation.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg">

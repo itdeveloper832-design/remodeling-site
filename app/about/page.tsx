@@ -9,12 +9,12 @@ import { Award, Users, Clock, Shield, CheckCircle2, ArrowRight, Phone, Pencil, H
 import { BreadcrumbSchema } from "@/components/seo/json-ld"
 
 export const metadata: Metadata = {
-  title: "About Us | Best Bathroom Remodel Company Near Me in Gilbert, AZ",
-  description: `Learn about Gilbert Bath & Kitchen, Gilbert, Arizona's premier bathroom and kitchen remodeling company. 15+ years of experience, 500+ projects completed, best bathroom remodelers near me with 100% satisfaction guarantee.`,
-  keywords: ["about bathroom remodeling", "bathroom contractors Gilbert Arizona", "best remodelers near me", "local bathroom company", "experienced remodelers"],
+  title: "About Us | Best Bathroom Remodel Company Near Me in Chandler, AZ",
+  description: `Learn about Chandler Bath & Kitchen, Chandler, Arizona's premier bathroom remodeling company. 15+ years of experience, 500+ projects completed, and trusted bathroom remodelers near me with a satisfaction guarantee.`,
+  keywords: ["about bathroom remodeling", "bathroom contractors Chandler Arizona", "best remodelers near me", "local bathroom company", "experienced remodelers"],
   openGraph: {
-    title: "About Gilbert Bath & Kitchen | Premium Bathroom & Kitchen Remodeling",
-    description: "Award-winning bathroom and kitchen remodeling company in Gilbert, AZ with 15+ years of expertise and 100% customer satisfaction.",
+    title: "About Chandler Bath & Kitchen | Premium Bathroom Remodeling",
+    description: "Award-winning bathroom remodeling company in Chandler, AZ with 15+ years of expertise and customer-first service.",
     url: `${siteConfig.url}/about`,
     type: "website",
   },
@@ -72,8 +72,8 @@ export default function AboutPage() {
                 About {siteConfig.name}
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                For over 15 years, we have been transforming bathrooms and kitchens across 
-                Gilbert, Arizona with exceptional craftsmanship and personalized service. We are the best bathroom remodel company near me.
+                For over 15 years, we have been transforming bathrooms across 
+                Chandler, Arizona with exceptional craftsmanship and personalized service. We are the best bathroom remodel company near me.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 </h2>
                 <p className="mt-6 text-muted-foreground leading-relaxed">
                   {siteConfig.name} was founded with a simple mission: to help homeowners 
-                  in Gilbert, Arizona create beautiful, functional spaces they love. What 
+                  in Chandler, Arizona create beautiful, functional spaces they love. What 
                   started as a small family business has grown into the region&apos;s most 
                   trusted remodeling company - the best bathroom remodelers near me.
                 </p>
@@ -136,7 +136,7 @@ export default function AboutPage() {
                   why we take a personalized approach to every remodel.
                 </p>
                 <ul className="mt-6 space-y-3">
-                  {["Family-owned and operated", "Local Gilbert, AZ business", "Experienced design team", "Premium materials only"].map((item) => (
+                  {["Family-owned and operated", "Local Chandler, AZ business", "Experienced design team", "Premium materials only"].map((item) => (
                     <li key={item} className="flex items-center gap-3 text-foreground">
                       <CheckCircle2 className="h-5 w-5 text-primary shrink-0" />
                       {item}
@@ -251,7 +251,7 @@ export default function AboutPage() {
               {[
                 {
                   award: "Best Local Contractor",
-                  issuer: "Gilbert Business Awards",
+                  issuer: "Chandler Business Awards",
                   year: "2024"
                 },
                 {

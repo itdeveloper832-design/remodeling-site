@@ -4,44 +4,68 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import Link from "next/link";
-import { ArrowUpRight, ShowerHead, CookingPot, Droplets, Grid3X3, Lightbulb, Wrench } from "lucide-react";
+import { ArrowUpRight, ShowerHead, Bath, Droplets, Grid3X3, Lightbulb, Wrench, Home } from "lucide-react";
 
 const services = [
   {
     icon: ShowerHead,
-    title: "Shower Remodels",
-    description: "Custom walk-in showers, frameless glass enclosures, and luxury shower systems.",
-    href: "/bathroom-remodeling#shower",
+    title: "Shower Remodeling",
+    description: "Custom shower upgrades with premium tile, glass enclosures, and modern fixtures.",
+    href: "/bathroom-remodeling#shower-remodeling",
   },
   {
-    icon: Droplets,
-    title: "Tub Conversions",
-    description: "Transform your outdated tub into a modern, accessible shower or luxury soaking tub.",
-    href: "/bathroom-remodeling#tub",
+    icon: Bath,
+    title: "Bathtub Installation",
+    description: "Professional bathtub installation designed for comfort, performance, and lasting style.",
+    href: "/bathroom-remodeling#bathtub-installation",
+  },
+  {
+    icon: Bath,
+    title: "Bathtub Replacement",
+    description: "Replace worn or outdated tubs with updated options that fit your bathroom layout.",
+    href: "/bathroom-remodeling#bathtub-replacement",
+  },
+  {
+    icon: ShowerHead,
+    title: "Walk-in Shower Installation",
+    description: "Accessible walk-in shower installations that combine clean design with everyday function.",
+    href: "/bathroom-remodeling#walk-in-shower-installation",
   },
   {
     icon: Grid3X3,
-    title: "Tile & Flooring",
-    description: "Premium tile installation including heated floors, waterproofing, and custom patterns.",
-    href: "/bathroom-remodeling#tile",
+    title: "Bathroom Tile Installation",
+    description: "Expert tile installation for shower surrounds, walls, backsplashes, and bathroom floors.",
+    href: "/bathroom-remodeling#bathroom-tile-installation",
   },
   {
-    icon: CookingPot,
-    title: "Cabinet Installation",
-    description: "Custom cabinetry for kitchens and bathrooms with premium finishes and hardware.",
-    href: "/kitchen-remodeling#cabinets",
+    icon: Home,
+    title: "Bathroom Vanity Installation",
+    description: "Install stylish vanities with smart storage, durable tops, and coordinated sink layouts.",
+    href: "/bathroom-remodeling#bathroom-vanity-installation",
+  },
+  {
+    icon: Grid3X3,
+    title: "Bathroom Flooring",
+    description: "Upgrade bathroom flooring with moisture-resistant materials built for beauty and durability.",
+    href: "/bathroom-remodeling#bathroom-flooring",
   },
   {
     icon: Lightbulb,
-    title: "Lighting & Fixtures",
-    description: "Designer lighting solutions and high-end fixture installation for any space.",
-    href: "/bathroom-remodeling#fixtures",
+    title: "Bathroom Lighting Upgrade",
+    description: "Improve brightness, ambiance, and efficiency with layered bathroom lighting upgrades.",
+    href: "/bathroom-remodeling#bathroom-lighting-upgrade",
+  },
+  {
+    icon: Droplets,
+    title: "Bathroom Sink Installation",
+    description: "Bathroom sink installations with updated plumbing connections and fixture selections.",
+    href: "/bathroom-remodeling#bathroom-sink-installation",
   },
   {
     icon: Wrench,
-    title: "Full Renovations",
-    description: "Complete bathroom and kitchen remodels from design to finishing touches.",
-    href: "/bathroom-remodeling",
+    title: "Bathroom Plumbing Upgrade",
+    description: "Modern plumbing upgrades that improve water flow, efficiency, and long-term reliability.",
+    href: "/bathroom-remodeling#bathroom-plumbing-upgrade",
   },
 ];
 
@@ -68,7 +92,7 @@ export default function ServicesGrid() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 mb-6 text-foreground text-balance"
           >
-            Comprehensive Remodeling Services
+            Bathroom Remodeling Services
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -76,8 +100,8 @@ export default function ServicesGrid() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted-foreground text-lg leading-relaxed"
           >
-            From single fixture updates to complete room transformations, we offer a full 
-            range of services to meet your remodeling needs.
+            Explore our bathroom remodeling micro-services, from shower updates and bathtub work
+            to tile, lighting, vanity, sink, flooring, and plumbing improvements.
           </motion.p>
         </div>
 

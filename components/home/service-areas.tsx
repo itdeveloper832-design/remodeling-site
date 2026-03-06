@@ -24,10 +24,10 @@ export default function ServiceAreas() {
               Service Areas
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold mt-4 mb-6 text-foreground text-balance">
-              Proudly Serving Gilbert & Surrounding Communities
+              Proudly Serving Chandler & Surrounding Communities
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Based in Gilbert, Arizona, we are the best bathroom remodel company near me, providing premium bathroom and kitchen remodeling 
+              Based in Chandler, Arizona, we are the best bathroom remodel company near me, providing premium bathroom remodeling 
               services throughout the East Valley. Our team is committed to delivering 
               exceptional craftsmanship to homeowners searching for bathroom remodelers near me.
             </p>
@@ -57,14 +57,14 @@ export default function ServiceAreas() {
             className="relative aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden bg-card border border-border"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106456.06989551912!2d-111.85736562344693!3d33.35284399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba7c2c5d9eeeb%3A0x8e2c3c2f2d6b0e00!2sGilbert%2C%20AZ!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+              src="https://www.google.com/maps?q=Chandler,AZ&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Service area map showing Gilbert, Arizona and surrounding areas"
+              title="Service area map showing Chandler, Arizona and surrounding areas"
             />
           </motion.div>
         </div>

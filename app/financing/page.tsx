@@ -8,8 +8,8 @@ import { siteConfig } from "@/lib/site-config"
 import { Check, Calculator, Clock, Shield, CreditCard } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Bathroom Remodel Financing Near Me | Gilbert Bath & Kitchen",
-  description: "Looking for bathroom remodel financing near me? Flexible financing options for your bathroom and kitchen remodeling project in Gilbert, Arizona. Low monthly payments and competitive rates available. Bathroom remodel with financing near me.",
+  title: "Bathroom Remodel Financing Near Me | Chandler Bath & Kitchen",
+  description: "Looking for bathroom remodel financing near me? Flexible financing options for your bathroom remodeling project in Chandler, Arizona. Low monthly payments and competitive rates available. Bathroom remodel with financing near me.",
 }
 
 const benefits = [
@@ -87,8 +87,8 @@ export default function FinancingPage() {
                 Make Your Dream Remodel Affordable
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Dont let budget constraints hold you back. We offer flexible financing options to help 
-                you achieve the bathroom or kitchen of your dreams with payments that fit your lifestyle.
+                Don&apos;t let budget constraints hold you back. We offer flexible financing options to help 
+                you achieve the bathroom of your dreams with payments that fit your lifestyle.
               </p>
               <div className="mt-8">
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -221,7 +221,7 @@ export default function FinancingPage() {
                 Ready to Get Started?
               </h2>
               <p className="mt-4 text-primary-foreground/80 text-lg">
-                Contact us today to discuss financing options for your bathroom or kitchen remodel.
+                Contact us today to discuss financing options for your bathroom remodel.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary">

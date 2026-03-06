@@ -75,7 +75,7 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-muted-foreground text-lg leading-relaxed"
           >
-            Discover why Gilbert homeowners trust us as the best bathroom remodel company near me. 
+            Discover why Chandler homeowners trust us as the best bathroom remodel company near me. 
             We combine artisan skill with modern efficiency to deliver exceptional results.
           </motion.p>
         </div>

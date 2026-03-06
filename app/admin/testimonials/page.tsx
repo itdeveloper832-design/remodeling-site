@@ -140,7 +140,7 @@ export default function AdminTestimonialsPage() {
                   id="location"
                   value={formData.location}
                   onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                  placeholder="Gilbert, AZ"
+                  placeholder="Chandler, AZ"
                 />
               </div>
               <div className="space-y-2">

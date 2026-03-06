@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Best Bathroom Remodel Company Near Me in Gilbert, Arizona | Expert Renovation Services",
+  title: "Best Bathroom Remodel Company Near Me in Chandler, Arizona | Expert Renovation Services",
   description:
-    "Looking for bathroom remodelers near me? Transform your bathroom with our expert remodeling services in Gilbert, Arizona. Bathroom remodel financing near me available. Custom showers, tub conversions, vanities & more. Free estimates!",
+    "Looking for bathroom remodelers near me? Transform your bathroom with our expert remodeling services in Chandler, Arizona. Bathroom remodel financing near me available. Custom showers, bathtub installation, vanities, tile, and more. Free estimates!",
   keywords: [
     "best bathroom remodel company near me",
     "bathroom remodelers near me",
@@ -12,13 +12,13 @@ export const metadata: Metadata = {
     "handicap bathroom remodel contractors near me",
     "commercial bathroom remodel contractors near me",
     "bathroom remodel in a day near me",
-    "Bathroom Remodeling Gilbert Arizona",
-    "Bathroom Renovation Gilbert AZ",
+    "Bathroom Remodeling Chandler Arizona",
+    "Bathroom Renovation Chandler AZ",
   ],
   openGraph: {
-    title: "Best Bathroom Remodel Company Near Me in Gilbert, Arizona",
+    title: "Best Bathroom Remodel Company Near Me in Chandler, Arizona",
     description:
-      "Looking for bathroom remodelers near me? Transform your bathroom with our expert remodeling services in Gilbert, Arizona. Financing available.",
+      "Looking for bathroom remodelers near me? Transform your bathroom with our expert remodeling services in Chandler, Arizona. Financing available.",
     url: `${siteConfig.url}/bathroom-remodeling`,
   },
 };

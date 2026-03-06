@@ -46,7 +46,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="flex flex-col hover:scale-102 transition-transform duration-200">
               <span className="font-serif text-2xl lg:text-3xl font-semibold tracking-tight text-foreground group-hover:text-primary transition-colors">
-                Gilbert
+                Chandler
               </span>
               <span className="text-xs tracking-[0.2em] uppercase text-muted-foreground -mt-1">
                 Bath & Kitchen
@@ -82,10 +82,7 @@ export function Header() {
               </button>
               {isServicesOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-card rounded-lg shadow-xl border border-border p-1 opacity-100 animate-in fade-in slide-in-from-top-2 duration-200">
-                  {[
-                    { name: "Bathroom Remodeling", href: "/bathroom-remodeling" },
-                    { name: "Kitchen Remodeling", href: "/kitchen-remodeling" },
-                  ].map((service) => (
+                  {siteConfig.services.map((service) => (
                     <Link
                       key={service.href}
                       href={service.href}

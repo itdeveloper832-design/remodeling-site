@@ -13,7 +13,7 @@ const blogPosts = [
     slug: "bathroom-remodeling-trends-2024",
     title: "Top Bathroom Remodeling Trends for 2024",
     excerpt:
-      "Discover the latest bathroom design trends that are transforming homes in Gilbert, Arizona. From spa-like showers to smart technology.",
+      "Discover the latest bathroom design trends transforming homes in Chandler, Arizona, from spa-like showers to smart technology.",
     image: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=2574&auto=format&fit=crop",
     date: "January 15, 2024",
     category: "Trends",
@@ -71,7 +71,7 @@ export default function BlogPreview() {
               className="text-muted-foreground text-lg"
             >
               Expert advice, design ideas, and industry insights to help you plan 
-              your perfect bathroom or kitchen remodel.
+              your perfect bathroom remodel.
             </motion.p>
           </div>
           <motion.div
@@ -85,7 +85,7 @@ export default function BlogPreview() {
               size="lg"
               className="group border-primary text-primary hover:bg-primary hover:text-primary-foreground"
             >
-              <Link href="/blogs">
+              <Link href="/blog">
                 View All Articles
                 <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
@@ -102,7 +102,7 @@ export default function BlogPreview() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link href={`/blogs/${post.slug}`} className="group block">
+              <Link href={`/blog/${post.slug}`} className="group block">
                 {/* Image */}
                 <div className="relative aspect-[16/10] rounded-xl overflow-hidden mb-6">
                   <Image

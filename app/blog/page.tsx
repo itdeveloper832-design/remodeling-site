@@ -74,7 +74,7 @@ export default function BlogPage() {
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
                 Discover expert advice, design inspiration, and practical tips for your 
-                bathroom and kitchen remodeling projects.
+                bathroom remodeling projects.
               </p>
             </motion.div>
           </div>

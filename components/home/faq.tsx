@@ -12,12 +12,12 @@ import {
 
 const faqs = [
   {
-    question: "How long does a typical bathroom remodel take in Gilbert, Arizona?",
+    question: "How long does a typical bathroom remodel take in Chandler, Arizona?",
     answer:
       "A standard bathroom remodel typically takes 2-4 weeks depending on the scope of work. Simple updates like replacing fixtures may take just a few days, while complete gut renovations with custom tile work can take 4-6 weeks. We also offer bathroom remodel in a day near me services for quick updates. During your free consultation, we'll provide a detailed timeline specific to your project.",
   },
   {
-    question: "What is the cost of bathroom remodeling in Gilbert, AZ?",
+    question: "What is the cost of bathroom remodeling in Chandler, AZ?",
     answer:
       "Bathroom remodeling costs vary based on the size of your bathroom and the materials selected. Basic remodels start around $8,000-$15,000, mid-range renovations typically range from $15,000-$30,000, and luxury bathroom remodels can exceed $30,000. We offer bathroom remodel financing near me to make your dream bathroom affordable. We provide detailed, transparent quotes with no hidden fees.",
   },
@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "Are you the best bathroom remodel company near me?",
     answer:
-      "Gilbert Bath & Kitchen is consistently rated as the best bathroom remodel company near me by our customers. We're fully licensed (ROC #123456), bonded, and insured for residential remodeling in Arizona. With 15+ years of experience and hundreds of 5-star reviews, we're the top-rated bathroom remodelers near me in Gilbert and the East Valley.",
+      "Chandler Bath & Kitchen is consistently rated as the best bathroom remodel company near me by our customers. We're fully licensed (ROC #123456), bonded, and insured for residential remodeling in Arizona. With 15+ years of experience and hundreds of 5-star reviews, we're the top-rated bathroom remodelers near me in Chandler and the East Valley.",
   },
   {
     question: "Do you offer handicap bathroom remodel contractors near me services?",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "Do you handle commercial bathroom remodel contractors near me projects?",
     answer:
-      "Yes, we are experienced commercial bathroom remodel contractors near me serving Gilbert and surrounding areas. We work with businesses, offices, restaurants, and commercial properties to deliver professional bathroom renovations with minimal disruption to your operations.",
+      "Yes, we are experienced commercial bathroom remodel contractors near me serving Chandler and surrounding areas. We work with businesses, offices, restaurants, and commercial properties to deliver professional bathroom renovations with minimal disruption to your operations.",
   },
   {
     question: "Can I stay in my home during the bathroom remodel?",
@@ -49,7 +49,7 @@ const faqs = [
   {
     question: "What areas in Arizona do you serve for bathroom remodeling?",
     answer:
-      "We primarily serve Gilbert, Arizona and the surrounding East Valley communities including Mesa, Chandler, Tempe, Scottsdale, Queen Creek, San Tan Valley, and Phoenix. As the best bathroom remodelers near me, we're proud to serve homeowners throughout the region.",
+      "We primarily serve Chandler, Arizona and nearby East Valley communities including Sun Lakes, Ahwatukee, Tempe, Mesa, and South Phoenix. As the best bathroom remodelers near me, we're proud to serve homeowners throughout the region.",
   },
 ];
 
@@ -85,8 +85,8 @@ export default function FAQ() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              Find answers to common questions about our bathroom and kitchen 
-              remodeling services in Gilbert, Arizona.
+              Find answers to common questions about our bathroom 
+              remodeling services in Chandler, Arizona.
             </motion.p>
           </div>
 
