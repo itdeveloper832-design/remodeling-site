@@ -41,10 +41,8 @@ export function Header() {
     <>
     <InfoHeader />
     <header
-      className={`fixed top-[50px] left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-sm py-3"
-          : "bg-background py-5"
+      className={`fixed top-[50px] left-0 right-0 z-50 transition-all duration-300 bg-background/95 backdrop-blur-md shadow-sm ${
+        isScrolled ? "py-3" : "py-5"
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8">
