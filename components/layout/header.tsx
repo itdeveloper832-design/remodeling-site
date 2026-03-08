@@ -104,16 +104,8 @@ export function Header() {
             </div>
           </nav>
 
-          {/* Desktop CTA - Call Button with Primary Color */}
+          {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
-            <a
-              href={`tel:${siteConfig.phone}`}
-              className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-primary/90 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:from-primary/90 hover:to-primary active:scale-95 transition-all duration-200"
-            >
-              <Phone className="w-5 h-5" />
-              <span className="hidden xl:inline">{siteConfig.phone}</span>
-              <span className="xl:hidden">Call Now</span>
-            </a>
             <Button asChild className="bg-foreground hover:bg-foreground/90 text-background rounded-full px-6 font-semibold">
               <Link href="/contact">Free Estimate</Link>
             </Button>
