@@ -10,9 +10,21 @@ import { bathroomServices } from "@/lib/bathroom-services";
 
 export function QuoteForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [messageError, setMessageError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    
+    const formData = new FormData(e.currentTarget);
+    const message = formData.get("message") as string;
+    const wordCount = message.trim().split(/\s+/).length;
+    
+    if (wordCount < 20) {
+      setMessageError(`Message must be at least 20 words. Current: ${wordCount} words.`);
+      return;
+    }
+    
+    setMessageError("");
     setIsSubmitting(true);
     
     const formData = new FormData(e.currentTarget);
@@ -91,10 +103,22 @@ export function QuoteForm() {
         
         <Textarea
           name="message"
-          placeholder="Message (Optional)"
-          rows={3}
+          placeholder="Describe your project (minimum 20 words required)"
+          rows={4}
           className="resize-none"
+          required
+          onChange={(e) => {
+            const wordCount = e.target.value.trim().split(/\s+/).filter(w => w).length;
+            if (wordCount < 20) {
+              setMessageError(`Message must be at least 20 words. Current: ${wordCount} words.`);
+            } else {
+              setMessageError("");
+            }
+          }}
         />
+        {messageError && (
+          <p className="text-sm text-destructive">{messageError}</p>
+        )}
         
         <Button
           type="submit"
