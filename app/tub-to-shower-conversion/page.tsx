@@ -22,8 +22,7 @@ export default function TubToShowerConversionPage() {
           image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "Tub to Shower Conversion", url: `${siteConfig.url}/services/tub-to-shower-conversion` },
+            { name: "Tub to Shower Conversion", url: `${siteConfig.url}/tub-to-shower-conversion` },
           ]}
         />
 

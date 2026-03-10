@@ -177,7 +177,7 @@ export function Header() {
     {/* Mobile Sticky Call Button */}
     <a
       href={`tel:${siteConfig.phone}`}
-      className="lg:hidden fixed bottom-4 right-4 z-50 flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-primary/90 text-white font-bold rounded-full shadow-2xl hover:shadow-3xl active:scale-95 transition-all duration-200 animate-in slide-in-from-bottom-4"
+      className="lg:hidden fixed bottom-4 right-4 z-50 flex items-center gap-2 px-6 py-3 bg-black text-white font-bold rounded-full shadow-2xl active:scale-95 transition-transform duration-200 animate-in slide-in-from-bottom-4"
     >
       <Phone className="w-5 h-5" />
       Call Now

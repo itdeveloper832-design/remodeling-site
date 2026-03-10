@@ -22,8 +22,7 @@ export default function KohlerWalkInBathPage() {
           image="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "KOHLER® Walk-In Bath", url: `${siteConfig.url}/services/kohler-walk-in-bath` },
+            { name: "KOHLER® Walk-In Bath", url: `${siteConfig.url}/kohler-walk-in-bath` },
           ]}
         />
 

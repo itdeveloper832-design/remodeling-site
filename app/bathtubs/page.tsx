@@ -22,8 +22,7 @@ export default function BathtubsPage() {
           image="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "Bathtubs", url: `${siteConfig.url}/services/bathtubs` },
+            { name: "Bathtubs", url: `${siteConfig.url}/bathtubs` },
           ]}
         />
 

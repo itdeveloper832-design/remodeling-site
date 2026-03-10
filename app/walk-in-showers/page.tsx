@@ -22,8 +22,7 @@ export default function WalkInShowersPage() {
           image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "Walk-In Showers", url: `${siteConfig.url}/services/walk-in-showers` },
+            { name: "Walk-In Showers", url: `${siteConfig.url}/walk-in-showers` },
           ]}
         />
 

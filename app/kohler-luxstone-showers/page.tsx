@@ -22,8 +22,7 @@ export default function KohlerLuxStoneShowersPage() {
           image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "KOHLER® LuxStone Showers", url: `${siteConfig.url}/services/kohler-luxstone-showers` },
+            { name: "KOHLER® LuxStone Showers", url: `${siteConfig.url}/kohler-luxstone-showers` },
           ]}
         />
 

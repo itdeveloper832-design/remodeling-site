@@ -22,8 +22,7 @@ export default function ShowerSystemsPage() {
           image="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "Shower Systems", url: `${siteConfig.url}/services/shower-systems` },
+            { name: "Shower Systems", url: `${siteConfig.url}/shower-systems` },
           ]}
         />
 

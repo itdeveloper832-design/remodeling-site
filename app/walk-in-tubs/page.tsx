@@ -22,8 +22,7 @@ export default function WalkInTubsPage() {
           image="https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
-            { name: "Services", url: `${siteConfig.url}/services` },
-            { name: "Walk-In Tubs", url: `${siteConfig.url}/services/walk-in-tubs` },
+            { name: "Walk-In Tubs", url: `${siteConfig.url}/walk-in-tubs` },
           ]}
         />
 

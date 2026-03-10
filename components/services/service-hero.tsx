@@ -116,7 +116,7 @@ export default function ServiceHero({
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-background/30 text-background hover:bg-background/10 text-base px-8 py-6"
+                className="bg-black text-white border-black hover:bg-black text-base px-8 py-6"
               >
                 <a href={`tel:${siteConfig.phone}`}>Call {siteConfig.phone}</a>
               </Button>
