@@ -60,7 +60,7 @@ export default function ServiceFAQ({ faqs }: ServiceFAQProps) {
                     {faq.answer}
                   </AccordionContent>
                 </AccordionItem>
-              ))
+              ))}
             </Accordion>
           </motion.div>
         </div>
