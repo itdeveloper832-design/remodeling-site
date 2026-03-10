@@ -51,16 +51,16 @@ export default function ServiceFAQ({ faqs }: ServiceFAQProps) {
                 <AccordionItem
                   key={index}
                   value={`item-${index}`}
-                  className="bg-card border border-border rounded-xl px-6 data-[state=open]:border-primary/20"
+                  className="bg-card rounded-xl px-6 border-0"
                 >
-                  <AccordionTrigger className="text-left font-serif text-lg font-medium hover:no-underline hover:text-primary py-6">
+                  <AccordionTrigger className="text-left font-serif text-lg font-medium hover:no-underline hover:text-primary py-6 border-0">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-muted-foreground leading-relaxed pb-6">
+                  <AccordionContent className="text-muted-foreground leading-relaxed pb-6 border-0">
                     {faq.answer}
                   </AccordionContent>
                 </AccordionItem>
-              ))}
+              ))
             </Accordion>
           </motion.div>
         </div>
