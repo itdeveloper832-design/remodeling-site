@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import Hero from "@/components/home/hero";
+import TrustBadges from "@/components/home/trust-badges";
 import { LocalBusinessSchema, FAQSchema } from "@/components/seo/json-ld";
 import { siteConfig } from "@/lib/site-config";
 
@@ -90,6 +91,7 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
+        <TrustBadges />
         <AboutPreview />
         <ServicesGrid />
         <WhyChooseUs />
