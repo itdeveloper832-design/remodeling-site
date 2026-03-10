@@ -6,8 +6,8 @@ import ServiceCTA from "@/components/services/service-cta";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Bathtubs Installation & Replacement | Chandler Bathroom Remodeling",
-  description: "Professional bathtub installation and replacement services in Chandler, Arizona. Premium bathtubs for comfort, style, and relaxation. Free estimates available.",
+  title: "Commercial Bathroom Remodel Contractors Near Me - Bathtubs | Chandler, AZ",
+  description: "Professional bathtub installation by commercial bathroom remodel contractors near me in Chandler, Arizona and 60625 IL. Get bathroom remodel financing near me and handicap bathroom remodel contractors near me services.",
 };
 
 export default function BathtubsPage() {
@@ -16,9 +16,9 @@ export default function BathtubsPage() {
       <Header />
       <main>
         <ServiceHero
-          title="Premium Bathtub Installation & Replacement"
-          subtitle="Bathtubs"
-          description="Transform your bathroom with our professional bathtub installation and replacement services. Choose from a wide selection of premium bathtubs designed for ultimate comfort and relaxation."
+          title="Commercial Bathroom Remodel Contractors Near Me - Premium Bathtubs"
+          subtitle="Bathtubs by Expert Contractors"
+          description="Professional bathtub installation by licensed commercial bathroom remodel contractors near me. Serving Chandler, AZ and 60625 IL with bathroom remodel financing near me options and handicap bathroom remodel contractors near me services."
           image="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1600&auto=format&fit=crop&fm=webp"
           breadcrumbs={[
             { name: "Home", url: siteConfig.url },
@@ -32,14 +32,17 @@ export default function BathtubsPage() {
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-4xl mx-auto">
               <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-6 text-foreground">
-                Professional Bathtub Services in Chandler, Arizona
+                Commercial Bathroom Remodel Contractors Near Me - Bathtub Services
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground">
                 <p className="mb-6">
-                  Whether you're looking to install a new bathtub or replace an existing one, our expert team provides comprehensive bathtub services in Chandler, Arizona. We specialize in a wide range of bathtub styles including alcove tubs, freestanding tubs, soaking tubs, and whirlpool tubs.
+                  Looking for bathroom remodelers near me 60625 il or Chandler, AZ? Our commercial bathroom remodel contractors near me 
+                  specialize in professional bathtub installation and replacement. We offer bathroom remodel financing near me and 
+                  handicap bathroom remodel contractors near me services for accessible bathing solutions.
                 </p>
                 <p className="mb-6">
-                  Our professional installation ensures proper plumbing connections, waterproofing, and structural support for long-lasting performance. We work with top-quality materials and trusted brands to deliver bathtubs that combine comfort, durability, and style.
+                  As experienced bathroom remodel contractors near me, we provide bathroom remodel with financing near me options 
+                  and can complete many projects with our bathroom remodel in a day near me service. We also offer free bathroom remodel for seniors near me programs.
                 </p>
               </div>
             </div>
@@ -124,20 +127,20 @@ export default function BathtubsPage() {
               </h2>
               <div className="space-y-6">
                 <div className="bg-card p-6 rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">How long does bathtub installation take?</h3>
-                  <p className="text-muted-foreground">Most bathtub installations can be completed in 1-2 days, depending on the complexity of the project and any additional plumbing work required.</p>
+                  <h3 className="font-semibold text-foreground mb-3">Are you commercial bathroom remodel contractors near me?</h3>
+                  <p className="text-muted-foreground">Yes, we are licensed commercial bathroom remodel contractors near me serving Chandler, AZ and 60625 IL areas with bathroom remodel financing near me options.</p>
                 </div>
                 <div className="bg-card p-6 rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">What types of bathtubs do you install?</h3>
-                  <p className="text-muted-foreground">We install all types of bathtubs including alcove tubs, freestanding tubs, soaking tubs, whirlpool tubs, and walk-in tubs from leading manufacturers.</p>
+                  <h3 className="font-semibold text-foreground mb-3">Do you offer bathroom remodel financing near me?</h3>
+                  <p className="text-muted-foreground">Yes, we provide bathroom remodel financing near me and bathroom remodel with financing near me options with flexible payment plans for qualified customers.</p>
                 </div>
                 <div className="bg-card p-6 rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">Do you handle the plumbing connections?</h3>
-                  <p className="text-muted-foreground">Yes, our team includes licensed plumbers who handle all necessary plumbing connections, ensuring proper installation and compliance with local codes.</p>
+                  <h3 className="font-semibold text-foreground mb-3">Are you handicap bathroom remodel contractors near me?</h3>
+                  <p className="text-muted-foreground">Absolutely! We are certified handicap bathroom remodel contractors near me specializing in ADA-compliant bathtub installations and accessibility modifications.</p>
                 </div>
                 <div className="bg-card p-6 rounded-lg">
-                  <h3 className="font-semibold text-foreground mb-3">What is included in your bathtub installation service?</h3>
-                  <p className="text-muted-foreground">Our service includes removal of old tub (if applicable), preparation, installation, plumbing connections, waterproofing, and cleanup.</p>
+                  <h3 className="font-semibold text-foreground mb-3">Do you offer bathroom remodel in a day near me services?</h3>
+                  <p className="text-muted-foreground">Yes, our bathroom remodel in a day near me service can complete many bathtub installations and replacements in just one day for your convenience.</p>
                 </div>
               </div>
             </div>

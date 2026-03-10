@@ -62,24 +62,24 @@ const FinalCTA = dynamic(() => import("@/components/home/final-cta"), {
 
 const homeFaqs = [
   {
-    question: "How long does a typical bathroom remodel take in Chandler, Arizona?",
+    question: "Are you commercial bathroom remodel contractors near me?",
     answer:
-      "A standard bathroom remodel typically takes 2-4 weeks depending on the scope of work. Simple updates like replacing fixtures may take just a few days, while complete gut renovations with custom tile work can take 4-6 weeks. We also offer bathroom remodel in a day near me services for quick updates.",
+      "Yes! We are licensed commercial bathroom remodel contractors near me serving Chandler, AZ and surrounding areas including 60625 IL. We specialize in both residential and commercial bathroom remodeling projects with bathroom remodel financing near me options available.",
   },
   {
-    question: "What is the cost of bathroom remodeling in Chandler, AZ?",
+    question: "Do you offer handicap bathroom remodel contractors near me services?",
     answer:
-      "Bathroom remodeling costs vary based on the size of your bathroom and the materials selected. Basic remodels start around $8,000-$15,000, mid-range renovations typically range from $15,000-$30,000, and luxury bathroom remodels can exceed $30,000. We offer bathroom remodel financing near me options.",
+      "Absolutely! We are certified handicap bathroom remodel contractors near me, specializing in ADA-compliant bathroom renovations. We also offer free bathroom remodel for seniors near me programs and bathroom remodel with financing near me options.",
   },
   {
-    question: "Are you the best bathroom remodel company near me?",
+    question: "What bathroom remodel financing near me options do you provide?",
     answer:
-      "Yes! Chandler Bathroom Remodeling is consistently rated as one of the top bathroom remodelers near me. We offer complimentary in-home consultations where our design experts will assess your space and provide a detailed estimate.",
+      "We offer flexible bathroom remodel financing near me with approved credit. Our bathroom remodel near me with financing includes 0% interest options, extended payment plans, and special programs for seniors. Contact us for bathroom remodel with financing near me details.",
   },
   {
-    question: "Are you licensed and insured for remodeling work in Arizona?",
+    question: "Do you provide bathroom remodel in a day near me services?",
     answer:
-      "Absolutely. Chandler Bathroom Remodeling is fully licensed (ROC #123456), bonded, and insured for residential remodeling in Arizona. We are proud to be the best bathroom remodel company near me.",
+      "Yes! We offer bathroom remodel in a day near me services for quick updates and renovations. Our experienced bathroom remodelers near me 60625 il team can complete many projects in just one day, perfect for busy homeowners and commercial properties.",
   },
 ];
 

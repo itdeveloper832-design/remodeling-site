@@ -8,9 +8,9 @@ import { Phone, Mail, MapPin, Clock, Star } from "lucide-react"
 import { BreadcrumbSchema, FAQSchema } from "@/components/seo/json-ld"
 
 export const metadata: Metadata = {
-  title: "Contact Us | Free Bathroom Remodel Estimate in Chandler, AZ",
-  description: `Contact Chandler Bathroom Remodeling for your free bathroom remodeling estimate. Serving Chandler, Sun Lakes, Ahwatukee, Tempe, Mesa, and South Phoenix. Call (480) 555-0123 or book online today.`,
-  keywords: ["bathroom remodel near me", "contact remodeling company", "free estimate", "bathroom contractor Chandler", "bathroom contractor"],
+  title: "Contact Commercial Bathroom Remodel Contractors Near Me | Free Estimate - Chandler, AZ",
+  description: `Contact top-rated commercial bathroom remodel contractors near me for your free estimate. Serving Chandler, AZ and 60625 IL with bathroom remodel financing near me, handicap bathroom remodel contractors near me, and free bathroom remodel for seniors near me programs.`,
+  keywords: ["commercial bathroom remodel contractors near me", "handicap bathroom remodel contractors near me", "bathroom remodel financing near me", "bathroom remodelers near me 60625 il", "free bathroom remodel for seniors near me", "bathroom remodel in a day near me"],
   openGraph: {
     title: "Contact Chandler Bathroom Remodeling | Free Remodeling Estimate",
     description: "Get your free bathroom remodeling estimate today. Licensed, insured, and trusted by Chandler homeowners.",
@@ -58,11 +58,11 @@ export default function ContactPage() {
                 Get In Touch
               </span>
               <h1 className="mt-4 text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-foreground text-balance">
-                Contact Us
+                Contact Commercial Bathroom Remodel Contractors Near Me
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Ready to transform your bathroom? Contact us for a free consultation 
-                and estimate. We are here to help bring your vision to life.
+                Ready for bathroom remodel financing near me? Contact our handicap bathroom remodel contractors near me 
+                for a free consultation. We serve Chandler, AZ and 60625 IL with bathroom remodel in a day near me services.
               </p>
             </div>
           </div>
