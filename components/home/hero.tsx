@@ -29,7 +29,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-32 pb-20 lg:pt-40 lg:pb-32">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-16 pb-20 lg:pt-20 lg:pb-32">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Column - Hero Content */}
           <div>
@@ -74,26 +74,30 @@ export default function Hero() {
                 <Link href="/gallery">View Our Portfolio</Link>
               </Button>
             </div>
-
-            {/* Trust Badges */}
-            <div className="grid grid-cols-2 gap-4">
-              {trustBadges.map((badge) => (
-                <div
-                  key={badge.label}
-                  className="flex items-center gap-3 bg-background/10 backdrop-blur-sm border border-background/20 rounded-lg px-4 py-3"
-                >
-                  <badge.icon className="w-5 h-5 text-primary" />
-                  <span className="text-background text-sm font-medium">
-                    {badge.label}
-                  </span>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Right Column - Quote Form */}
           <div className="lg:block">
             <QuoteForm />
+          </div>
+        </div>
+      </div>
+
+      {/* Trust Badges Section */}
+      <div className="relative z-10 bg-background/95 backdrop-blur-sm border-t border-border">
+        <div className="container mx-auto px-4 lg:px-8 py-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            {trustBadges.map((badge) => (
+              <div
+                key={badge.label}
+                className="flex items-center justify-center gap-3 bg-card border border-border rounded-lg px-4 py-3"
+              >
+                <badge.icon className="w-5 h-5 text-primary" />
+                <span className="text-foreground text-sm font-medium">
+                  {badge.label}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
