@@ -91,11 +91,11 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
+        <TrustBar />
         <AboutPreview />
         <ServicesGrid />
         <WhyChooseUs />
         <Testimonials />
-        <TrustBar />
         <BathroomSection />
         <GalleryPreview />
         <ProcessSection />
