@@ -8,13 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+import { db } from "@/lib/firebase";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { siteConfig } from "@/lib/site-config";
 import { bathroomServices } from "@/lib/bathroom-services";
 
@@ -23,16 +18,33 @@ export default function ContactSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError("");
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      name: formData.get("name") as string,
+      phone: formData.get("phone") as string,
+      email: formData.get("email") as string,
+      service: formData.get("service") as string,
+      message: formData.get("message") as string,
+      type: "contact",
+      createdAt: serverTimestamp(),
+    };
+
+    try {
+      await addDoc(collection(db, "quotes"), data);
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error("Error submitting contact form:", error);
+      setError("Failed to submit form. Please try again or call us directly.");
+    }
     
     setIsSubmitting(false);
-    setIsSubmitted(true);
   };
 
   return (
@@ -52,7 +64,7 @@ export default function ContactSection() {
               Ready to Start Your Project?
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-              Get in touch with our team to schedule your free consultation. We&apos;ll 
+              Get in touch with our team to schedule your free consultation. We'll 
               discuss your vision, answer your questions, and provide a detailed estimate.
             </p>
 
@@ -127,9 +139,15 @@ export default function ContactSection() {
                   <h3 className="font-serif text-2xl font-semibold mb-3 text-foreground">
                     Thank You!
                   </h3>
-                  <p className="text-muted-foreground">
-                    We&apos;ve received your message and will get back to you within 24 hours.
+                  <p className="text-muted-foreground mb-4">
+                    We've received your message and will get back to you within 24 hours.
                   </p>
+                  <Button 
+                    onClick={() => setIsSubmitted(false)}
+                    variant="outline"
+                  >
+                    Send Another Message
+                  </Button>
                 </div>
               ) : (
                 <>
@@ -137,7 +155,7 @@ export default function ContactSection() {
                     Get Your Free Estimate
                   </h3>
                   <p className="text-muted-foreground mb-8">
-                    Fill out the form below and we&apos;ll be in touch shortly.
+                    Fill out the form below and we'll be in touch shortly.
                   </p>
 
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -179,22 +197,19 @@ export default function ContactSection() {
 
                     <div className="space-y-2">
                       <Label htmlFor="service">Service Interested In</Label>
-                      <Select name="service" required>
-                        <SelectTrigger className="bg-background">
-                          <SelectValue placeholder="Select a service" />
-                        </SelectTrigger>
-                        <SelectContent>
-                      {bathroomServices
-                        .filter((service) => service.name !== "Bathroom Remodeling")
-                        .slice(0, 8)
-                        .map((service) => (
-                        <SelectItem key={service.href} value={service.href}>
-                          {service.name}
-                        </SelectItem>
-                      ))}
-                      <SelectItem value="other">Other</SelectItem>
-                        </SelectContent>
-                      </Select>
+                      <select
+                        name="service"
+                        required
+                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                      >
+                        <option value="">Select a service</option>
+                        {bathroomServices.map((service) => (
+                          <option key={service.href} value={service.name}>
+                            {service.name}
+                          </option>
+                        ))}
+                        <option value="Other">Other</option>
+                      </select>
                     </div>
 
                     <div className="space-y-2">
@@ -205,8 +220,13 @@ export default function ContactSection() {
                         placeholder="Describe your project goals, timeline, and any specific requirements..."
                         rows={4}
                         className="bg-background resize-none"
+                        required
                       />
                     </div>
+
+                    {error && (
+                      <p className="text-sm text-destructive">{error}</p>
+                    )}
 
                     <Button
                       type="submit"
