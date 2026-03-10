@@ -77,7 +77,7 @@ export default function RootLayout({
       <body className="font-sans antialiased bg-background text-foreground" suppressHydrationWarning>
         {children}
       </body>
-      <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
+      <Script src="/_vercel/insights/script.js" strategy="afterInteractive" async />
     </html>
   )
 }

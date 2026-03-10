@@ -42,9 +42,11 @@ export function QuoteForm() {
       setSuccess(true);
       e.currentTarget.reset();
       setWordCount(0);
-    } catch (error) {
+    } catch (error: any) {
       console.error("Error submitting quote:", error);
-      setError("Failed to submit quote. Please try again or call us directly.");
+      console.error("Error code:", error.code);
+      console.error("Error message:", error.message);
+      setError(`Failed to submit quote: ${error.message}. Please try again or call us directly.`);
     }
     
     setIsSubmitting(false);
