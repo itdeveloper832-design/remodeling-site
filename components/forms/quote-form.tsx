@@ -79,7 +79,7 @@ export function QuoteForm() {
 
   if (success) {
     return (
-      <div className="bg-card border border-border rounded-xl shadow-lg p-5 lg:p-6 text-center max-w-sm mx-auto lg:mx-0">
+      <div className="bg-card border border-border rounded-xl shadow-lg p-5 lg:p-6 text-center max-w-sm mx-auto lg:ml-auto lg:mr-0">
         <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
           <span className="text-2xl">✓</span>
         </div>
@@ -101,7 +101,7 @@ export function QuoteForm() {
   }
 
   return (
-    <div className="bg-card border border-border rounded-xl shadow-lg p-5 lg:p-6 max-w-sm mx-auto lg:mx-0">
+    <div className="bg-card border border-border rounded-xl shadow-lg p-5 lg:p-6 max-w-sm mx-auto lg:ml-auto lg:mr-0">
       <h3 className="font-serif text-xl font-semibold text-foreground mb-2">
         Get Free Quote
       </h3>
