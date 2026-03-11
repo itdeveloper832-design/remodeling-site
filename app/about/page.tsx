@@ -17,6 +17,23 @@ export const metadata: Metadata = {
     description: "Award-winning bathroom remodeling company in Chandler, AZ with 15+ years of expertise and customer-first service.",
     url: `${siteConfig.url}/about`,
     type: "website",
+    images: [
+      {
+        url: `${siteConfig.url}/images/about-bathroom.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Chandler Bathroom Remodeling Team",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Chandler Bathroom Remodeling | Premium Bathroom Remodeling",
+    description: "Award-winning bathroom remodeling company in Chandler, AZ with 15+ years of expertise and customer-first service.",
+    images: [`${siteConfig.url}/images/about-bathroom.jpg`],
+  },
+  alternates: {
+    canonical: `${siteConfig.url}/about`,
   },
 }
 
@@ -82,7 +99,7 @@ export default function AboutPage() {
       <Header />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="py-24 md:py-32 bg-secondary">
+        <section className="pt-32 pb-24 md:pt-40 md:pb-32 bg-secondary">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <span className="text-sm font-medium tracking-widest text-primary uppercase">

@@ -16,6 +16,23 @@ export const metadata: Metadata = {
     description: "Get your free bathroom remodeling estimate today. Licensed, insured, and trusted by Chandler homeowners.",
     url: `${siteConfig.url}/contact`,
     type: "website",
+    images: [
+      {
+        url: `${siteConfig.url}/images/contact-hero.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Contact Chandler Bathroom Remodeling",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Chandler Bathroom Remodeling | Free Remodeling Estimate",
+    description: "Get your free bathroom remodeling estimate today. Licensed, insured, and trusted by Chandler homeowners.",
+    images: [`${siteConfig.url}/images/contact-hero.jpg`],
+  },
+  alternates: {
+    canonical: `${siteConfig.url}/contact`,
   },
 }
 
@@ -51,7 +68,7 @@ export default function ContactPage() {
       <Header />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="py-24 md:py-32 bg-secondary">
+        <section className="pt-32 pb-24 md:pt-40 md:pb-32 bg-secondary">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <span className="text-sm font-medium tracking-widest text-primary uppercase">

@@ -50,7 +50,7 @@ export default function TrustBar() {
           {trustBadges.map((badge) => (
             <div
               key={badge.title}
-              className={`flex items-center justify-center gap-3 bg-card border border-border rounded-lg px-4 py-3 transition-opacity duration-500 ${
+              className={`flex items-center justify-center gap-3 bg-card border border-border rounded-xl px-4 py-3 transition-opacity duration-500 ${
                 isInView ? 'opacity-100' : 'opacity-0'
               }`}
             >

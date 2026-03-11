@@ -40,7 +40,7 @@ export default function ServiceAreas() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.05 }}
-                  className="flex items-center gap-2 bg-card border border-border rounded-lg px-4 py-3"
+                  className="flex items-center gap-2 bg-card border border-border rounded-xl px-4 py-3"
                 >
                   <MapPin className="w-4 h-4 text-primary shrink-0" />
                   <span className="text-foreground text-sm font-medium">{area}, AZ</span>

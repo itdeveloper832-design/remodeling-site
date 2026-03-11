@@ -11,7 +11,7 @@ import type { BlogPost, Category } from "@/lib/types"
 import { Calendar, Clock, ArrowRight, Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { defaultBlogPost } from "@/lib/seed-blog"
+import { defaultBlogPost, secondBlogPost } from "@/lib/seed-blog"
 
 export default function BlogPage() {
   const [posts, setPosts] = useState<BlogPost[]>([])
@@ -26,14 +26,23 @@ export default function BlogPage() {
         getPublishedPosts(),
         getCategories()
       ])
-      // If no posts from database, use default blog post
+      // If no posts from database, use default blog posts
       if (postsData.length === 0) {
-        const defaultPost: BlogPost = {
-          ...defaultBlogPost,
-          id: "default-post",
-          readTime: 12,
-        }
-        setPosts([defaultPost])
+        const defaultPosts: BlogPost[] = [
+          {
+            ...defaultBlogPost,
+            id: "default-post-1",
+            readTime: 12,
+            keywords: ["bathroom remodeling chandler arizona", "bathroom renovation chandler az", "bathroom contractor chandler", "shower remodel chandler arizona", "bathroom design arizona"],
+          },
+          {
+            ...secondBlogPost,
+            id: "default-post-2",
+            readTime: 8,
+            keywords: ["bathroom design trends 2024", "chandler arizona bathroom", "modern bathroom design", "smart bathroom technology", "sustainable bathroom materials"],
+          }
+        ]
+        setPosts(defaultPosts)
       } else {
         setPosts(postsData)
       }
@@ -58,7 +67,7 @@ export default function BlogPage() {
       <Header />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="relative py-24 md:py-32 bg-secondary">
+        <section className="pt-32 pb-24 md:pt-40 md:pb-32 bg-secondary">
           <div className="container mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -152,6 +161,9 @@ export default function BlogPage() {
                             alt={featuredPost.title}
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            loading="lazy"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                            priority
                           />
                           <div className="absolute top-4 left-4">
                             <span className="px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full">
@@ -208,6 +220,8 @@ export default function BlogPage() {
                             alt={post.title}
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
+                            loading="lazy"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                           />
                         </div>
                         <span className="text-xs font-medium text-primary uppercase tracking-wider">

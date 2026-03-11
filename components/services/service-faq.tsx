@@ -18,7 +18,7 @@ function FAQItem({ question, answer, isOpen, onToggle }: {
     <div className="bg-card border border-border rounded-xl overflow-hidden">
       <button
         onClick={onToggle}
-        className="w-full px-6 py-6 text-left flex items-start justify-between gap-4 hover:bg-muted/50 transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+        className="w-full px-6 py-6 text-left flex items-start justify-between gap-4 hover:bg-muted/50 transition-colors focus:outline-none"
         aria-expanded={isOpen}
       >
         <span className="font-serif text-lg font-medium text-foreground pr-4">
