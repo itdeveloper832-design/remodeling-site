@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Chandler Bathroom Remodeling",
   tagline: "Luxury Bathroom Remodeling",
   description: "Premier bathroom remodeling services in Chandler, Arizona. Transform your bathroom with expert craftsmanship, premium finishes, and timeless design.",
-  url: "https://bathroom-remodelings-995z.vercel.app",
+  url: "https://airforshare.online",
   phone: "(480) 555-0123",
   email: "bathroomremodelign@gmail.com",
   address: {

@@ -4,12 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6j-X3Iwd9v7sAw924cTYzSudWGmuq6To",
-  authDomain: "remodeling-website-6fb31.firebaseapp.com",
-  projectId: "remodeling-website-6fb31",
-  storageBucket: "remodeling-website-6fb31.firebasestorage.app",
-  messagingSenderId: "62727025961",
-  appId: "1:62727025961:web:ce3c5c41c88d3c327f7338"
+  apiKey: "AIzaSyBkklRQlC5Pe-H3FOYMEOVrevciSpfpY3U",
+  authDomain: "bathroom-remodeling-ddafa.firebaseapp.com",
+  projectId: "bathroom-remodeling-ddafa",
+  storageBucket: "bathroom-remodeling-ddafa.firebasestorage.app",
+  messagingSenderId: "1013887386970",
+  appId: "1:1013887386970:web:2c8a339fee21514674df63"
 };
 
 // Initialize Firebase
