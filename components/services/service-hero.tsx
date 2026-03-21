@@ -40,7 +40,7 @@ export default function ServiceHero({
       </div>
 
       {/* Content */}
-      <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-10 pb-20 lg:pt-16 lg:pb-32">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 pt-16 pb-20 lg:pt-20 lg:pb-32">
         <div className="grid lg:grid-cols-3 gap-8 lg:gap-12 items-center">
           {/* Left Column - Hero Content */}
           <div className="lg:col-span-2">
@@ -108,7 +108,7 @@ export default function ServiceHero({
               <Button
                 asChild
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground text-base px-8 py-6"
+                className="bg-primary hover:bg-primary/90 hover:scale-105 hover:shadow-lg transition-all duration-300 text-primary-foreground text-base px-8 py-6"
               >
                 <Link href="/contact">Get Your Free Estimate</Link>
               </Button>
@@ -116,7 +116,7 @@ export default function ServiceHero({
                 asChild
                 size="lg"
                 variant="outline"
-                className="bg-black text-white border-black hover:bg-black text-base px-8 py-6"
+                className="bg-black text-white border-black hover:bg-black/90 hover:border-black/90 hover:scale-105 hover:shadow-lg transition-all duration-300 text-base px-8 py-6"
               >
                 <a href={`tel:${siteConfig.phone}`}>Call {siteConfig.phone}</a>
               </Button>
