@@ -62,25 +62,25 @@ const FinalCTA = dynamic(() => import("@/components/home/final-cta"), {
 
 const homeFaqs = [
   {
-    question: "Are you commercial bathroom remodel contractors near me?",
+    question: "Why choose Airforshare.online for bathroom remodeling?",
     answer:
-      "Yes! We are licensed commercial bathroom remodel contractors near me serving Chandler, AZ and surrounding areas including 60625 IL. We specialize in both residential and commercial bathroom remodeling projects with bathroom remodel financing near me options available.",
+      "Airforshare.online provides expert bathroom remodeling services with transparent pricing, experienced craftsmen, and quality materials. We specialize in bathroom remodel financing, senior discounts, and guarantee all our work with comprehensive warranties."
   },
   {
-    question: "Do you offer handicap bathroom remodel contractors near me services?",
+    question: "What bathroom remodeling services does Airforshare.online offer?",
     answer:
-      "Absolutely! We are certified handicap bathroom remodel contractors near me, specializing in ADA-compliant bathroom renovations. We also offer free bathroom remodel for seniors near me programs and bathroom remodel with financing near me options.",
+      "Airforshare.online offers complete bathroom remodeling including shower remodeling, bathtub installation, tile work, vanity installation, accessibility upgrades, and small bathroom solutions. All services come with free estimates and flexible payment options."
   },
   {
-    question: "What bathroom remodel financing near me options do you provide?",
+    question: "Do you serve areas beyond Chandler for bathroom remodeling?",
     answer:
-      "We offer flexible bathroom remodel financing near me with approved credit. Our bathroom remodel near me with financing includes 0% interest options, extended payment plans, and special programs for seniors. Contact us for bathroom remodel with financing near me details.",
+      "Yes! Airforshare.online serves greater Phoenix area including Tempe, Mesa, Gilbert, Sun Lakes, and surrounding communities. Contact us to confirm service in your specific location."
   },
   {
-    question: "Do you provide bathroom remodel in a day near me services?",
+    question: "What makes Airforshare.online different?",
     answer:
-      "Yes! We offer bathroom remodel in a day near me services for quick updates and renovations. Our experienced bathroom remodelers near me 60625 il team can complete many projects in just one day, perfect for busy homeowners and commercial properties.",
-  },
+      "Airforshare.online combines quality craftsmanship with excellent customer service, offering bathroom remodel financing options, senior discounts, and on-time project completion guarantees."
+  }
 ];
 
 export default function HomePage() {

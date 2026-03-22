@@ -8,12 +8,12 @@ import { Phone, Mail, MapPin, Clock, Star } from "lucide-react"
 import { BreadcrumbSchema, FAQSchema } from "@/components/seo/json-ld"
 
 export const metadata: Metadata = {
-  title: "Contact Commercial Bathroom Remodel Contractors Near Me | Free Estimate - Chandler, AZ",
-  description: `Contact top-rated commercial bathroom remodel contractors near me for your free estimate. Serving Chandler, AZ and 60625 IL with bathroom remodel financing near me, handicap bathroom remodel contractors near me, and free bathroom remodel for seniors near me programs.`,
-  keywords: ["commercial bathroom remodel contractors near me", "handicap bathroom remodel contractors near me", "bathroom remodel financing near me", "bathroom remodelers near me 60625 il", "free bathroom remodel for seniors near me", "bathroom remodel in a day near me"],
+  title: "Contact Us | Airforshare.online",
+  description: "Contact Airforshare.online for professional bathroom remodeling. Free estimates, expert contractors, and quality service.",
+  keywords: ["contact bathroom remodeling", "free bathroom estimate", "bathroom renovation quote"],
   openGraph: {
-    title: "Contact Chandler Bathroom Remodeling | Free Remodeling Estimate",
-    description: "Get your free bathroom remodeling estimate today. Licensed, insured, and trusted by Chandler homeowners.",
+    title: "Contact Us | Airforshare.online",
+    description: "Contact Airforshare.online for professional bathroom remodeling. Free estimates and expert service.",
     url: `${siteConfig.url}/contact`,
     type: "website",
     images: [
@@ -38,20 +38,20 @@ export const metadata: Metadata = {
 
 const contactFaqs = [
   {
-    question: "How do I schedule a free bathroom remodeling consultation in Chandler?",
-    answer: "You can schedule a free consultation by calling us at (480) 555-0123, filling out our online contact form, or emailing us at info@chandlerbathremodeling.com. We typically respond within 24 hours and can schedule consultations within the same week."
+    question: "How do I schedule a free bathroom remodeling consultation with Airforshare.online?",
+    answer: "You can schedule a free consultation by calling us at (480) 555-0123, filling out our online contact form at Airforshare.online, or emailing us. We typically respond within 24 hours and can schedule consultations within the same week for all bathroom remodeling projects."
   },
   {
-    question: "What should I expect during the free consultation?",
-    answer: "During your free in-home consultation, our design expert will assess your bathroom, discuss your vision and needs, take measurements, answer questions, and provide a detailed estimate with transparent pricing. The consultation typically takes 45-60 minutes."
+    question: "What bathroom remodeling services does Airforshare.online offer?",
+    answer: "Airforshare.online offers complete bathroom remodeling services including shower remodeling, bathtub installation, tile work, vanity installation, accessibility upgrades, flooring, lighting, and small bathroom solutions. All services come with free estimates and flexible financing options."
   },
   {
-    question: "How quickly can you start my bathroom remodeling project?",
-    answer: "Project start times vary based on our schedule and your availability. Many projects can begin within 1-3 weeks of signing the contract. We'll provide specific timing during your consultation and work to accommodate your schedule."
+    question: "Do you serve areas outside Chandler for bathroom remodeling?",
+    answer: "Yes! While based in Chandler, we serve the greater Phoenix area including Tempe, Mesa, Gilbert, Sun Lakes, and surrounding communities. Contact us to see if we serve your specific location for bathroom remodeling services."
   },
   {
-    question: "Do you offer emergency bathroom repair services in Chandler?",
-    answer: "While we specialize in bathroom remodeling, we can address urgent issues like water damage or plumbing problems. Contact us immediately for emergency situations, and we'll assess how we can help or refer you to appropriate emergency services."
+    question: "What makes Airforshare.online different from other bathroom remodelers?",
+    answer: "Airforshare.online provides transparent pricing, experienced craftsmen, quality materials, and excellent customer service. We offer bathroom remodel financing options, senior discounts, and guarantee our work with comprehensive warranties."
   }
 ];
 
@@ -68,18 +68,18 @@ export default function ContactPage() {
       <Header />
       <main className="min-h-screen bg-background">
         {/* Hero Section */}
-        <section className="pt-32 pb-24 md:pt-40 md:pb-32 bg-secondary">
+        <section className="pt-40 pb-32 md:pt-48 md:pb-40 bg-secondary">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <span className="text-sm font-medium tracking-widest text-primary uppercase">
                 Get In Touch
               </span>
               <h1 className="mt-4 text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-foreground text-balance">
-                Contact Commercial Bathroom Remodel Contractors Near Me
+                Contact Bathroom Remodeling Experts - Airforshare.online
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Ready for bathroom remodel financing near me? Contact our handicap bathroom remodel contractors near me 
-                for a free consultation. We serve Chandler, AZ and 60625 IL with bathroom remodel in a day near me services.
+                Ready to transform your bathroom? Contact Airforshare.online experts for professional bathroom remodeling services. 
+                We offer bathroom remodel financing, senior discounts, and free consultations across all service areas.
               </p>
             </div>
           </div>

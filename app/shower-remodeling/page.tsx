@@ -15,12 +15,12 @@ import { siteConfig } from "@/lib/site-config";
 import { ServiceSchema, FAQSchema } from "@/components/seo/json-ld";
 
 export const metadata: Metadata = {
-  title: "Shower Remodeling Chandler AZ | Custom Shower Renovations & Frameless Glass",
-  description: "Professional shower remodeling in Chandler, Arizona. Custom tile, frameless glass enclosures, waterproof installations, and premium fixtures. Licensed, insured, free estimates.",
-  keywords: ["shower remodeling chandler az", "custom shower renovations chandler", "frameless glass shower doors", "bathroom shower remodel", "walk-in shower installation", "shower tile installation"],
+  title: "Shower Remodeling | Airforshare.online",
+  description: "Professional shower remodeling services from Airforshare.online. Custom tile, glass enclosures, and waterproof installations.",
+  keywords: ["shower remodeling", "custom shower", "glass shower doors", "shower tile"],
   openGraph: {
-    title: "Shower Remodeling Chandler AZ | Custom Shower Renovations",
-    description: "Professional shower remodeling in Chandler, Arizona. Custom tile, frameless glass enclosures, waterproof installations, and premium fixtures.",
+    title: "Shower Remodeling | Airforshare.online",
+    description: "Professional shower remodeling services. Custom tile, glass enclosures, and waterproof installations.",
     url: `${siteConfig.url}/shower-remodeling`,
     type: "website",
     images: [

@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Chandler Bathroom Remodeling",
-  tagline: "Luxury Bathroom Remodeling",
-  description: "Premier bathroom remodeling services in Chandler, Arizona. Transform your bathroom with expert craftsmanship, premium finishes, and timeless design.",
+  name: "Airforshare.online",
+  tagline: "Professional Bathroom Remodeling",
+  description: "Professional bathroom remodeling services at Airforshare.online. Expert contractors, free estimates, financing options, and quality renovations.",
   url: "https://airforshare.online",
   phone: "(480) 555-0123",
   email: "bathroomremodelign@gmail.com",
