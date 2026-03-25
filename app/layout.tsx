@@ -12,9 +12,6 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  verification: {
-    google: '2ARTG65jNJhlpMH4ReQpdZooIPFPV1J-H4lsYNobU4E',
-  },
   title: {
     default: `Bathroom Remodeling | Airforshare.online`,
     template: `%s | Airforshare.online`
