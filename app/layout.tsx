@@ -1,7 +1,20 @@
 import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
+import { Playfair_Display, Open_Sans } from 'next/font/google'
 import { siteConfig } from '@/lib/site-config'
 import './globals.css'
+
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-heading',
+  display: 'swap',
+})
+
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  variable: '--font-body',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -54,10 +67,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${playfairDisplay.variable} ${openSans.variable}`}>
       <head>
       </head>
-      <body className="font-sans antialiased bg-background text-foreground" suppressHydrationWarning>
+      <body className="font-body antialiased bg-background text-foreground" suppressHydrationWarning>
         {children}
       </body>
       <Script src="/_vercel/insights/script.js" strategy="afterInteractive" />
